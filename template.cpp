@@ -1,6 +1,10 @@
 // 
 #include<iostream>
-#include <bits/stdc++.h>
+#include<vector>
+#include<set>
+#include<map>
+#include<iterator> 
+#include<algorithm>
 
 using namespace std;
 
