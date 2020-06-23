@@ -100,7 +100,19 @@ void setDemo(){
         cout<<"Element is present\n";
         cout<< *it <<endl;
     }
-
+    
+    
+    /* set of pair
+    
+    std::pair<int,int> p1(1,0);
+    std::pair<int,int> p2(2,1);
+    std::set<std::pair<int,int>> s;
+    s.insert(p1);
+    s.insert(p2);
+    auto it = s.find(p1);
+    std::cout << it->first << "," << it->second <<std::endl;
+    */
+    
     // Lower bound and upper bound
     auto it2 = S.upper_bound(-1);
     auto it3 = S.upper_bound(0);
