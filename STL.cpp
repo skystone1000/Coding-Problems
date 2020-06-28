@@ -150,6 +150,46 @@ void mapDemo(){
     }
 
     cout<< cnt['a'] << " " << cnt['z'] <<endl;
+
+
+    /*
+    int n =5;
+    map< int,int > arr;
+    for(int i=0;i<n;i++){
+        long long temp;
+        cin>>temp;
+        auto it = arr.find(temp);
+        if (it != arr.end()){
+            int count = it->second;
+            it->second = count + 1;
+        }
+        else{
+            arr.insert({temp,1});
+        }
+    }
+    int flag = 0;
+    for (auto itr = arr.begin(); itr != arr.end(); ++itr){
+        if(itr->second > 2){
+            cout<<"NO"<<endl;
+            flag = 1;
+            break;
+        }
+        if(itr == prev(arr.end())){
+            if(itr->second > 1){
+                cout<<"NO"<<endl;
+                flag = 1;
+                //cout << '\t' << itr->first << '\t' << itr->second << '\n'; 
+                break;
+            }
+        }
+    }
+    cout<<"YES"<<endl;
+    for (auto itr = arr.begin(); itr != arr.end(); ++itr){
+        cout<< itr->first <<" ";
+        itr->second = itr->second - 1;
+    }   
+    */
+
 }
 
 void powerofStl(){
