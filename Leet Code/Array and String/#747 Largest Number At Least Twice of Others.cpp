@@ -1,4 +1,4 @@
-// LeetCode Arrays & Strings 2
+// LeetCode Arrays & Strings - 2
 // #747 Largest Number At Least Twice of Others 
 
 class Solution {

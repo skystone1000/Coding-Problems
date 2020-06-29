@@ -1,4 +1,4 @@
-// LeetCode Arrays & Strings 1
+// LeetCode Arrays & Strings - 1
 // #724 Find Pivot Index  
 
 class Solution {

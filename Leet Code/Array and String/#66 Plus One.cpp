@@ -1,4 +1,4 @@
-// LeetCode Arrays & Strings 3
+// LeetCode Arrays & Strings - 3
 // #66 Plus One
 
 class Solution {
