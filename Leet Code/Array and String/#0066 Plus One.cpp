@@ -1,5 +1,5 @@
 // LeetCode Arrays & Strings - 3
-// #66 Plus One
+// #0066 Plus One
 
 class Solution {
 public:

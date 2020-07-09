@@ -1,5 +1,5 @@
 // LeetCode Arrays & Strings - 1
-// #724 Find Pivot Index  
+// #0724 Find Pivot Index  
 
 class Solution {
 public:

@@ -1,5 +1,5 @@
 // LeetCode Arrays & Strings - 4
-// #498	Diagonal Traverse
+// #0498 Diagonal Traverse
 
 // Time:  O(m * n)
 // Space: O(m * n)
