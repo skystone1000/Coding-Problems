@@ -1,5 +1,5 @@
 // LeetCode arrays 3
-// #977 Squares of a Sorted Array
+// #0977 Squares of a Sorted Array
 
 class Solution {
 public:

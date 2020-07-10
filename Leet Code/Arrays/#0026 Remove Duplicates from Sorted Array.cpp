@@ -1,5 +1,5 @@
 // LeetCode arrays 7
-// #26 Remove Duplicates from Sorted Array
+// #0026 Remove Duplicates from Sorted Array
 
 class Solution {
 public:

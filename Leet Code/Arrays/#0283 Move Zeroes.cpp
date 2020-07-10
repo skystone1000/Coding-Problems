@@ -1,5 +1,5 @@
 // LeetCode arrays 12
-// #283 Move Zeroes    
+// #0283 Move Zeroes    
 
 class Solution {
 public:

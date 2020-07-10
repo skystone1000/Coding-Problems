@@ -1,5 +1,5 @@
 // LeetCode arrays 6
-// #27 Remove Element   
+// #0027 Remove Element   
 
 class Solution {
 public:
