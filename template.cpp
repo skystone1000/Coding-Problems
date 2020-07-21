@@ -43,6 +43,14 @@ int main(){
         vector<int>::iterator ip;
         ip = std::unique(v.begin(), v.begin() + 12); 
         v.resize(std::distance(v.begin(), ip)); 
+
+        // Find 
+        std::vector<int>::iterator it; 
+        it = std::find (vec.begin(), vec.end(), required); 
+        if (it != vec.end()) 
+            std::cout << "Element " << required <<" found at : "<< it - vec.begin(); 
+        else
+            std::cout << "Element not found"; 
         */
 
     }
