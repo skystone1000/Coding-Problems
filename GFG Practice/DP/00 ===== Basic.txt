@@ -1,0 +1,7 @@
+01 to 03 problems are Basic of Dynamic Programming
+
+Tut = https://www.youtube.com/watch?v=vYquumk4nWw
+
+01 Padovan Sequence
+02 Print first n Fibonacci Numbers
+03 Count numbers containing 4
