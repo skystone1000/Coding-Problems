@@ -23,6 +23,10 @@ int main(){
     int testCases;
     cin>>testCases;
     for(int t=0;t<testCases;t++){
+
+        // Save output to a file
+        // freopen ("myfile.txt","w",stdout);
+
         /*string str;
         getline(cin, str); 
         
@@ -54,5 +58,8 @@ int main(){
         */
 
     }
+
+    // Save Output to file
+    // fclose (stdout);
     return 0;
 }
