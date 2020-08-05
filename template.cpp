@@ -43,6 +43,9 @@ int main(){
         const char *str1 = "31337 sdkj"; 
         int num1 = atoi(str1); 
         
+        // To Lower case
+        transform(s.begin(), s.end(), s.begin(), ::tolower);
+
         // Unique
         vector<int>::iterator ip;
         ip = std::unique(v.begin(), v.begin() + 12); 
