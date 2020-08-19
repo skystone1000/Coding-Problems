@@ -6,6 +6,7 @@
 #include<iterator> 
 #include<algorithm>
 #include<cmath>
+#include<unordered_map>
 
 #define ll long long
 #define pb push_back
@@ -20,12 +21,14 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
 
+    // Save output to a file
+    // freopen ("myfile.txt","w",stdout);
+
     int testCases;
     cin>>testCases;
     for(int t=0;t<testCases;t++){
 
-        // Save output to a file
-        // freopen ("myfile.txt","w",stdout);
+        
 
         /*string str;
         getline(cin, str); 

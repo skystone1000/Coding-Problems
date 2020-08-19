@@ -149,46 +149,41 @@ void mapDemo(){
         cnt[c]++;
     }
 
-    cout<< cnt['a'] << " " << cnt['z'] <<endl;
+    cout<< cnt['a'] << " " << cnt['z'] <<endl; 
+    
+    // ============================================
 
+    std::map <string,int > Map;
+	Map["Chotu"] = 90939208;
+	Map["Amit"] = 82396497;
 
-    /*
-    int n =5;
-    map< int,int > arr;
-    for(int i=0;i<n;i++){
-        long long temp;
-        cin>>temp;
-        auto it = arr.find(temp);
-        if (it != arr.end()){
-            int count = it->second;
-            it->second = count + 1;
-        }
-        else{
-            arr.insert({temp,1});
-        }
+	Map.insert(std::make_pair("Bot",28736872));
+
+	// Traversing the Map
+	for(auto el1: Map){
+		cout << el1.first << " " << el1.second <<endl;
+	}
+
+	// Access using [] Operator
+	cout<< Map["Chotu"] << endl;
+
+    // ============================================
+
+    // Frequency Counter
+    map<int,int> mp;
+    for(int i=0;i<10;i++){
+        int x;
+        cin>>x;
+        mp[x]++;
     }
-    int flag = 0;
-    for (auto itr = arr.begin(); itr != arr.end(); ++itr){
-        if(itr->second > 2){
-            cout<<"NO"<<endl;
-            flag = 1;
-            break;
-        }
-        if(itr == prev(arr.end())){
-            if(itr->second > 1){
-                cout<<"NO"<<endl;
-                flag = 1;
-                //cout << '\t' << itr->first << '\t' << itr->second << '\n'; 
-                break;
-            }
-        }
+
+    for(auto ele:mp){
+        cout<<ele.first<<"  "<<ele.second<<endl;
     }
-    cout<<"YES"<<endl;
-    for (auto itr = arr.begin(); itr != arr.end(); ++itr){
-        cout<< itr->first <<" ";
-        itr->second = itr->second - 1;
-    }   
-    */
+
+    // ============================================
+    
+
 
 }
 

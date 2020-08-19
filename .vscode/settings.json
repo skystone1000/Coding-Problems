@@ -9,6 +9,8 @@
         "forward_list": "cpp",
         "list": "cpp",
         "string": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "unordered_map": "cpp",
+        "ostream": "cpp"
     }
 }
