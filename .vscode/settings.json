@@ -11,6 +11,8 @@
         "string": "cpp",
         "valarray": "cpp",
         "unordered_map": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "bitset": "cpp",
+        "chrono": "cpp"
     }
 }
