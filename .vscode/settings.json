@@ -13,6 +13,11 @@
         "unordered_map": "cpp",
         "ostream": "cpp",
         "bitset": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "array": "cpp",
+        "unordered_set": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp"
     }
 }
