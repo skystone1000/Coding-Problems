@@ -63,6 +63,12 @@ int main(){
             std::cout << "Element " << required <<" found at : "<< it - vec.begin(); 
         else
             std::cout << "Element not found"; 
+
+        // Bitwise even odd
+        //            outputs 0/1 => 1 : 0
+        //         (condition) if true : false
+        string res = number & 1 ? "odd":"even" ;
+        cout<<res;
         */
 
     }
