@@ -133,6 +133,10 @@ void setDemo(){
     for(int x:S){
         cout<<x<<" ";
     }
+
+    // convert set to a vector
+    set<int> values;
+    vector<int> ans(values.begin(),values.end());
 }
 
 void mapDemo(){

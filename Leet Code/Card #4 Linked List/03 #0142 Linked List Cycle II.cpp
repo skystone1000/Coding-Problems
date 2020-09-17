@@ -1,7 +1,6 @@
 // Linked List 03
 // #0142 Linked List Cycle II
 
-
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +45,3 @@ public:
         return p1;
     }
 };
-
