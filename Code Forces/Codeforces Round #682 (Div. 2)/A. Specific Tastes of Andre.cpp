@@ -1,6 +1,6 @@
-// Codeforces Round #654 (Div. 2)
-// A. Magical Sticks
-// https://codeforces.com/contest/1371/problem/A
+// Codeforces Round #682 (Div. 2) 
+// A. Specific Tastes of Andre
+// https://codeforces.com/contest/1438/problem/A
 
 #include<iostream>
 #include<vector>
@@ -9,6 +9,7 @@
 #include<iterator> 
 #include<algorithm>
 #include<cmath>
+#include<unordered_map>
 
 #define ll long long
 #define pb push_back
@@ -26,23 +27,12 @@ int main(){
     int testCases;
     cin>>testCases;
     for(int t=0;t<testCases;t++){
-        ll n;
+        int n;
         cin>>n;
-
-        // if(n==1){
-        //     cout<<1<<endl;
-        //     continue;
-        // }else if(n==2){
-        //     cout<<
-        // }
-
-        if(n%2 == 0){
-            cout<<n/2<<endl;
-            continue;
-        }else{
-            cout<<(n/2)+1<<endl;
-            continue;
+        for(int i=0;i<n;i++){
+            cout<<1<<" ";
         }
+        cout<<endl;
 
     }
     return 0;
