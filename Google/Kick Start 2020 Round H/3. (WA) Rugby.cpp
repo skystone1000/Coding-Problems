@@ -2,6 +2,8 @@
 // 3. Rugby
 // https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043b027
 
+// Wrong Answer
+
 #include<iostream>
 #include<vector>
 #include<set>
