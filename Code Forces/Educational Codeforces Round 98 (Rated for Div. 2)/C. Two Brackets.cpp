@@ -1,6 +1,8 @@
 // Educational Codeforces Round 98 (Rated for Div. 2) 
-//
-// 
+// C. Two Brackets
+// https://codeforces.com/contest/1452/problem/C
+// Editorial - https://codeforces.com/blog/entry/84847 
+
 
 #include<iostream>
 #include<vector>

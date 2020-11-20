@@ -1,6 +1,7 @@
 // Educational Codeforces Round 98 (Rated for Div. 2) 
-//
-// 
+// A. Robot Program
+// https://codeforces.com/contest/1452/problem/A
+// Editorial - https://codeforces.com/blog/entry/84847 
 
 #include<iostream>
 #include<vector>
