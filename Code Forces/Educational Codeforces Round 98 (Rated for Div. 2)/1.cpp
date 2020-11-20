@@ -1,3 +1,4 @@
+// Educational Codeforces Round 98 (Rated for Div. 2) 
 //
 // 
 
@@ -9,7 +10,6 @@
 #include<algorithm>
 #include<cmath>
 #include<unordered_map>
-#include<stack>
 
 #define ll long long
 #define pb push_back
@@ -27,7 +27,20 @@ int main(){
     int testCases;
     cin>>testCases;
     for(int t=0;t<testCases;t++){
-
+        int x,y;
+        cin>>x>>y;
+        int ans=0;
+        if(x==y){
+            ans = x+y;
+        }else if(x<y){
+            ans = ( 2 * x ) + ( y - x ) * 2 - 1; 
+        }else{
+            int temp = x;
+            x = y;
+            y = temp;
+            ans = ( 2 * x ) + ( y - x ) * 2 - 1;
+        }
+        cout<<ans<<endl;
 
     }
     return 0;

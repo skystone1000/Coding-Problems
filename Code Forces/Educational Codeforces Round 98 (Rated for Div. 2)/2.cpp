@@ -1,3 +1,4 @@
+// Educational Codeforces Round 98 (Rated for Div. 2) 
 //
 // 
 
@@ -9,7 +10,6 @@
 #include<algorithm>
 #include<cmath>
 #include<unordered_map>
-#include<stack>
 
 #define ll long long
 #define pb push_back
@@ -27,7 +27,19 @@ int main(){
     int testCases;
     cin>>testCases;
     for(int t=0;t<testCases;t++){
-
+        int n;
+        cin>>n;
+        vector<int> arr(n);
+        int sum = 0;
+        for(int i=0;i<n;i++){
+            cin>>arr[i];
+            sum += arr[i];
+        }
+        int div = sum / (n-1);
+        int rem = sum % (n-1);
+        // int ans = ( + ) % (n-1);
+        deb2(div,rem);
+        // cout<<ans<<endl;
 
     }
     return 0;
