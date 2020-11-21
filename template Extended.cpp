@@ -56,6 +56,9 @@ int main(){
         ip = std::unique(v.begin(), v.begin() + 12); 
         v.resize(std::distance(v.begin(), ip)); 
 
+        // Sort in descending
+        sort(arr.begin(), arr.end(),greater<int>());
+        
         // Find 
         std::vector<int>::iterator it; 
         it = std::find (vec.begin(), vec.end(), required); 

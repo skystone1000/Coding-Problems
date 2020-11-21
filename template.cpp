@@ -10,6 +10,7 @@
 #include<cmath>
 #include<unordered_map>
 #include<stack>
+#define modulo 1000000007
 
 #define ll long long
 #define pb push_back
