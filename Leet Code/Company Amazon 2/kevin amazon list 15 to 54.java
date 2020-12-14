@@ -366,7 +366,7 @@ class Solution{
 		}
 	}
 
-	publc void dfs(int i, int j, int count, int[][] rooms){
+	public void dfs(int i, int j, int count, int[][] rooms){
 		if(i<0 || i>=rooms.length || j<0 || j>=rooms.length || rooms[i][j] < count){
 			return ;
 		}
