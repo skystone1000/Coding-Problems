@@ -175,7 +175,7 @@ class Solution {
 		jumps.add(0);
 
 		while(!positions.isEmpty()) {
-			int positions = positions.pop();
+			int position = positions.pop();
 			int jumpDistance = jumps.pop();
 			for(int i = jumpDistance-1 ; i<=jumpDistance+1 ; i++) {
 				if(i <= 0){
@@ -187,7 +187,7 @@ class Solution {
 					return true;
 				} else if(stonePositions.contains(nextPosition)) {
 					positions.add(nextPosition);
-					jumps.add(i)
+					jumps.add(i);
 				}
 			}
 		}
