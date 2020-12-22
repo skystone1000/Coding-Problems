@@ -111,7 +111,7 @@ class Solution {
 		for (int[] point: points){
 			maxHeap.add(point);
 			if(maxHeap.size() > k){
-				maxHeap.remove;
+				maxHeap.remove();
 			}
 		}
 
@@ -482,7 +482,7 @@ class Solution{
 			int end = lastIndexes[S.charAt(i) - 'a'];
 			int j = i;
 			while(j != end){
-				end = Math.max(end, lastIndexes[S.charAt(j++) - 'a'])
+				end = Math.max(end, lastIndexes[S.charAt(j++) - 'a']);
 			}
 
 			partitionLengths.add(j - i + 1);
@@ -679,7 +679,7 @@ class Solution {
 				if(i>0 && j>0){
 					dp[i][j] += Math.min(dp[i-1][j], dp[i][j-1]);
 				} else if(i>0){
-					dp[i][j] += [i-1][j];
+					dp[i][j] += dp[i-1][j];
 				} else if(j>0){
 					dp[i][j] += dp[i][j-1];
 				}

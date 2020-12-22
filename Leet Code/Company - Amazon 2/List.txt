@@ -106,7 +106,7 @@ https://leetcode.com/problems/partition-labels/
 35 #0014. Longest Common Prefix
 https://leetcode.com/problems/longest-common-prefix/
 
-36 #078. Subsets
+36 #0078. Subsets
 https://leetcode.com/problems/subsets/
 
 37 #0021. Merge Two Sorted Lists
@@ -162,3 +162,6 @@ https://leetcode.com/problems/subtree-of-another-tree/
 
 54 #0443. String Compression
 https://leetcode.com/problems/string-compression/
+
+55 #0056. Merge Intervals
+https://leetcode.com/problems/merge-intervals/
