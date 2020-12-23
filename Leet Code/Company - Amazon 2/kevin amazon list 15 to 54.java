@@ -741,7 +741,7 @@ class Solution {
 			while(i < j && !vowels.contains(characters[i])){
 				i++;
 			}
-			while(i < j && !vowels.contains(characters[i])){
+			while(i < j && !vowels.contains(characters[j])){
 				j--;
 			}
 
