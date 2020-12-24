@@ -7,11 +7,14 @@ class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
         stack<int> st;
-        int i=0;
-        while(i<asteroids.size()){
-            if(asteroids[i] > 0){
+        
+        for(int i=0 ; i<asteroids.size() ; i++){
+            // Positive asteroids
+            if(asteroids[i] > 0)
                 st.push(asteroids[i]);
-            } else {
+                
+            // Negative asteroids    
+            else {
                 while( !st.empty() && st.top()>0 && st.top()<abs(asteroids[i])){
                     st.pop();
                 }
@@ -21,7 +24,6 @@ public:
                     st.pop();
                 }
             }
-            i++;
         }
         
         vector<int> remaining(st.size());
