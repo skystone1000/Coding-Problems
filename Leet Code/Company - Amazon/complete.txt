@@ -1,3 +1,6 @@
+###################################################
+12. Copy List With Random Pointer
+https://leetcode.com/problems/copy-list-with-random-pointer/
 
 
 ###################################################
@@ -24,6 +27,11 @@ class Solution {
         return max;
     }
 }
+
+
+###################################################
+14. Trapping Rain Water
+https://leetcode.com/problems/trapping-rain-water/
 
 
 ###################################################
@@ -822,7 +830,7 @@ class Solution{
 https://leetcode.com/problems/design-twitter/
 
 ###################################################
-44. Reverse Words In A String II
+44. Reverse Words In A String II (Premium)
 https://leetcode.com/problems/reverse-words-in-a-string-ii/
 
 ###################################################
