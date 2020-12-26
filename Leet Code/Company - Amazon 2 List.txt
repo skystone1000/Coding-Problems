@@ -141,6 +141,8 @@ https://leetcode.com/problems/last-stone-weight/
 
 47 #1167. Minimum Cost to Connect Sticks (Premium)
 https://leetcode.com/problems/minimum-cost-to-connect-sticks/
+AIE 2.4 Minimum Cost of ropes (Same question)
+https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1#
 
 48 #0415. Add Strings
 https://leetcode.com/problems/add-strings/
