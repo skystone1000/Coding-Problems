@@ -1,4 +1,5 @@
 GFG Amazon Intern Experiences Questions
+(EXP 5, 8 Not done)
 
 1.1 Overlapping Intervals 
 https://practice.geeksforgeeks.org/problems/overlapping-intervals4919/1
@@ -77,15 +78,50 @@ https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of
 LeetCode - 239. Sliding Window Maximum
 https://leetcode.com/problems/sliding-window-maximum/
 
-
 6.5 Iterative Postorder Traversal | Set 2 (Using One Stack)
 https://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/
+Leetcode - 145. Binary Tree Postorder Traversal
+https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 6.6 You are at the beginning of the array, you can either take 1 jump or arr[i] jumps at 
 each step, you have to return the minimum number of steps to reach the end of the array. {DP}
+Minimum number of jumps 
+https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
+LeetCode - 45. Jump Game II
+https://leetcode.com/problems/jump-game-ii/
 
 6.7 Given a string, find its first non-repeating character
 https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
+LeetCode - 387. First Unique Character in a String
+https://leetcode.com/problems/first-unique-character-in-a-string/
+
+
+======================================================================================
+
+7.1 Tree Traversal Spiral Order
+https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1
+https://www.youtube.com/watch?v=vjt5Y6-1KsQ
+
+7.2 each cell has positive or negative numbers. Starting from the top left cell, reach the 
+bottom-right cell with an optimum path such that maximum positive sum is received.
+64. Minimum Path Sum
+https://leetcode.com/problems/minimum-path-sum/
+62. Unique Paths
+https://leetcode.com/problems/unique-paths/
+
+7.3 BST, initially two nodes are swapped. Now correct the BST. - 
+Leetcode - Recover Binary Search Tree
+https://leetcode.com/problems/recover-binary-search-tree/
+https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
+
+7.4 LeetCode - 268 Missing Number
+https://leetcode.com/problems/missing-number/
+
+7.5 Design a data structure that supports insert, delete, search and getRandom in constant time
+Leetcode  - Insert Delete GetRandom O(1)
+https://leetcode.com/problems/insert-delete-getrandom-o1/
+
+https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delete-search-and-getrandom-in-constant-time/
 
 
 ======================================================================================
@@ -96,23 +132,33 @@ https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1
 
 9.2 Smallest distinct window 
 https://practice.geeksforgeeks.org/problems/smallest-distant-window/0
+Leetcode 76. Minimum Window Substring
+https://leetcode.com/problems/minimum-window-substring/
 
 
 9.3 Problem 1
 9.4 problem 2
 
 
-9.5 Minimum number of jumps
+9.5 Minimum number of jumps - (Look 6.6)
 https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps/0
+LeetCode - 45. Jump Game II
+https://leetcode.com/problems/jump-game-ii/
 
-9.6 Shuffle a given array using Fisher–Yates shuffle Algorithm
+9.6 - 384. Shuffle an Array
+https://leetcode.com/problems/shuffle-an-array/
+Shuffle a given array using Fisher–Yates shuffle Algorithm
 https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/
 
-9.7 Next Permutation
+9.7 Next Permutation (Look 6.3)
 https://practice.geeksforgeeks.org/problems/next-permutation/0
+LeetCode - 31. Next Permutation
+https://leetcode.com/problems/next-permutation/
 
 9.8 Wildcard Pattern Matching
 https://practice.geeksforgeeks.org/problems/wildcard-pattern-matching/1
+LeetCode - 44. Wildcard Matching
+https://leetcode.com/problems/wildcard-matching/
 
 ======================================================================================
 
@@ -122,6 +168,8 @@ https://practice.geeksforgeeks.org/problems/next-permutation/0
 
 10.2 Evaluation of Postfix Expression
 https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0
+LeetCode - 150. Evaluate Reverse Polish Notation
+https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
 10.3 Diagonal Traversal of Binary Tree
 https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1
@@ -137,6 +185,8 @@ https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst
 
 10.7 Maximum Width of Tree 
 https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1
+LeetCode - 662. Maximum Width of Binary Tree
+https://leetcode.com/problems/maximum-width-of-binary-tree/
 
 10.8 Next larger element 
 https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1
@@ -203,8 +253,3 @@ https://practice.geeksforgeeks.org/problems/lru-cache/1
 12.10 Search in a matrix
 https://practice.geeksforgeeks.org/problems/search-in-a-matrix17201720/1
 
-
-======================================================================================
-
-45. Rotate Function
-https://leetcode.com/problems/rotate-function/

@@ -5,6 +5,8 @@
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
+        // Method 1
+        /*
         int count = 0;
         for(int i:nums){
             if(i != val){
@@ -13,22 +15,21 @@ public:
             }
         }
         return count;
+        */
         
         
-        // Method 2 (Wrong Answer)
-        /*
-        int end = nums.size() - 1;
-        int count = 0;
-        for(int i=0;i<nums.size();i++){
-            if(i+count == nums.size()) break;
+        // Method 2 - Remove unnecessary copy
+        int n = nums.size();
+        int i = 0;
+        while(i<n) {
             if(nums[i] == val){
-                swap(nums[i],nums[end]);
-                end--;
-                count++;
-                i--;
+                nums[i] = nums[n-1];
+                n--;
+            }else {
+                i++;
             }
         }
-        return count;
-        */
+        return n;
+        
     }
 };
