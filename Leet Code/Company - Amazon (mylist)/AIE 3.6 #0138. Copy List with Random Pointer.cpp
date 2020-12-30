@@ -1,5 +1,5 @@
 // Company Amazon
-// AIE 3.4 #0138. Copy List with Random Pointer
+// AIE 3.6 #0138. Copy List with Random Pointer
 // https://leetcode.com/problems/copy-list-with-random-pointer/submissions/
 
 /*

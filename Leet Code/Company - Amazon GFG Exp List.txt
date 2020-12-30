@@ -34,6 +34,48 @@ https://practice.geeksforgeeks.org/problems/probability-of-knight/0
 
 ======================================================================================
 
+2.1 Find the Next Greater Element
+https://practice.geeksforgeeks.org/problems/next-larger-element/0
+
+2.2  Mirror Tree 
+https://practice.geeksforgeeks.org/problems/mirror-tree/1
+
+2.3 Similar to first but dont know
+
+2.4  Minimum Cost of ropes 
+https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0
+LeetCode - #1167. (Premium) Minimum Cost to Connect Sticks
+https://leetcode.com/problems/minimum-cost-to-connect-sticks/
+
+======================================================================================
+
+3.1 Given an array of numbers, arrange them in an alternate fashion such that 
+every number is followed by a number of opposite sign. Also the order was to be maintained. 
+If the count of negative numbers is more keep the extra at last in array and same for 
+positive numbers.
+
+3.2 String of characters as arranged in a cellphone Print all combinations for 
+given number of digits(k) in lexicographical order. (See 11.2 )
+Possible words from Phone digits (Premium) (Already Done)
+https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits/0
+LeetCode - 17. Letter Combinations of a Phone Number
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+3.3 Design a shuffle function which would play songs randomly in your device 
+(unique song_id) and code it. (Look 9.6)
+
+3.4 Add two linked lists. (Already Done)
+LeetCode - Add Two Numbers
+https://leetcode.com/problems/add-two-numbers/
+
+3.5 largest subtree which is binary search tree in a given Binary Tree.
+
+3.6 Leetcode #138 Copy List with Random Pointer
+https://leetcode.com/problems/copy-list-with-random-pointer/
+
+
+======================================================================================
+
 4.1 Maximize Number of 1's 
 https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1
 LeetCode - Maximize Number of 1's
@@ -50,7 +92,7 @@ TechDose - https://www.youtube.com/watch?v=Ztt-VtNyqL8
 
 4.4 Binary Tree Insertion and deletion
 
-4.5 Add two numbers represented by linked lists
+4.5 Add two numbers represented by linked lists (Already Done)
 https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1
 
 4.6 Search in a matrix
@@ -90,7 +132,7 @@ https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
 LeetCode - 45. Jump Game II
 https://leetcode.com/problems/jump-game-ii/
 
-6.7 Given a string, find its first non-repeating character
+6.7 Given a string, find its first non-repeating character (Already Done)
 https://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/
 LeetCode - 387. First Unique Character in a String
 https://leetcode.com/problems/first-unique-character-in-a-string/
@@ -104,7 +146,7 @@ https://www.youtube.com/watch?v=vjt5Y6-1KsQ
 
 7.2 each cell has positive or negative numbers. Starting from the top left cell, reach the 
 bottom-right cell with an optimum path such that maximum positive sum is received.
-64. Minimum Path Sum
+64. Minimum Path Sum   (Already Done)
 https://leetcode.com/problems/minimum-path-sum/
 62. Unique Paths
 https://leetcode.com/problems/unique-paths/
@@ -114,7 +156,7 @@ Leetcode - Recover Binary Search Tree
 https://leetcode.com/problems/recover-binary-search-tree/
 https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/
 
-7.4 LeetCode - 268 Missing Number
+7.4 LeetCode - 268 Missing Number (Already Done)
 https://leetcode.com/problems/missing-number/
 
 7.5 Design a data structure that supports insert, delete, search and getRandom in constant time
@@ -130,6 +172,7 @@ https://www.geeksforgeeks.org/design-a-data-structure-that-supports-insert-delet
 9.1 Reach a given score
 https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1
 
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000
 9.2 Smallest distinct window 
 https://practice.geeksforgeeks.org/problems/smallest-distant-window/0
 Leetcode 76. Minimum Window Substring
@@ -163,45 +206,60 @@ https://leetcode.com/problems/wildcard-matching/
 ======================================================================================
 
 
-10.1 Next Permutation
+10.1 Next Permutation (Look 6.3)
 https://practice.geeksforgeeks.org/problems/next-permutation/0
 
 10.2 Evaluation of Postfix Expression
 https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0
 LeetCode - 150. Evaluate Reverse Polish Notation
 https://leetcode.com/problems/evaluate-reverse-polish-notation/
+https://www.youtube.com/watch?v=qN8LPIcY6K4
 
 10.3 Diagonal Traversal of Binary Tree
 https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1
 
 10.4 Subarray with 0 sum 
 https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1
+LeetCode - 560. Subarray Sum Equals K
+https://leetcode.com/problems/subarray-sum-equals-k/
 
 10.5 Key Pair 
 https://practice.geeksforgeeks.org/problems/key-pair/0
+Different - 1. Two Sum
+https://leetcode.com/problems/two-sum/
 
 10.6 Find a pair with given target in BST 
 https://practice.geeksforgeeks.org/problems/find-a-pair-with-given-target-in-bst/1
+LeetCode - 653. Two Sum IV - Input is a BST
+https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
 
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000
 10.7 Maximum Width of Tree 
 https://practice.geeksforgeeks.org/problems/maximum-width-of-tree/1
 LeetCode - 662. Maximum Width of Binary Tree
 https://leetcode.com/problems/maximum-width-of-binary-tree/
 
-10.8 Next larger element 
+10.8 Next larger element (Look 2.1)
 https://practice.geeksforgeeks.org/problems/next-larger-element-1587115620/1
 
-10.9 Spirally traversing a matrix
+10.9 Spirally traversing a matrix 
 https://practice.geeksforgeeks.org/problems/spirally-traversing-a-matrix-1587115621/1
+LeetCode - 54. Spiral Matrix
+https://leetcode.com/problems/spiral-matrix/
 
 10.10 K largest elements
 https://practice.geeksforgeeks.org/problems/k-largest-elements3736/1
+https://www.youtube.com/watch?v=3DdP6Ef8YZM
+https://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/
 
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000
 10.11 Alien Dictionary 
 https://practice.geeksforgeeks.org/problems/alien-dictionary/1
 
-10.12 Lowest Common Ancestor in a Binary Tree
+10.12 Lowest Common Ancestor in a Binary Tree (Already Done)
 https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+LeetCOde - 236. Lowest Common Ancestor of a Binary Tree
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 ======================================================================================
 
@@ -210,21 +268,27 @@ Check Doc more ques there
 11.1 Reverse words in a given string
 https://practice.geeksforgeeks.org/problems/reverse-words-in-a-given-string/0
 
-11.2 Possible words from Phone digits (Premium)
+11.2 Possible words from Phone digits (Premium) (Already Done)
 https://practice.geeksforgeeks.org/problems/possible-words-from-phone-digits/0
+LeetCode - 17. Letter Combinations of a Phone Number
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
 
 11.3 Remove BST keys outside the given range
 https://www.geeksforgeeks.org/remove-bst-keys-outside-the-given-range/
+Leetcode - 669. Trim a Binary Search Tree
+https://leetcode.com/problems/trim-a-binary-search-tree/
 
-11.4 Level order traversal in spiral form 
+11.4 Level order traversal in spiral form (Look 7.1)
 https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1
 
 
 ======================================================================================
 
 
-12.1 Print Anagrams Together 
+12.1 Print Anagrams Together (Already Done)
 https://practice.geeksforgeeks.org/problems/print-anagrams-together/1
+49. Group Anagrams
+https://leetcode.com/problems/group-anagrams/
 
 12.2 Diameter of Binary Tree 
 https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1
@@ -232,7 +296,7 @@ https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1
 12.3 Insert a node in a BST
 https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1
 
-12.4 Lowest Common Ancestor in a Binary Tree
+12.4 Lowest Common Ancestor in a Binary Tree (Already Done)
 https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
 
 12.5 Kadane's Algorithm 
