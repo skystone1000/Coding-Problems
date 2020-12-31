@@ -292,26 +292,40 @@ https://leetcode.com/problems/group-anagrams/
 
 12.2 Diameter of Binary Tree 
 https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1
+LeetCode - 543. Diameter of Binary Tree
+https://leetcode.com/problems/diameter-of-binary-tree/
 
-12.3 Insert a node in a BST
+12.3 Insert a node in a BST (Check 4.4 also) (Already Done) (Card Binary Search tree - 05)
 https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1
+Leetcode - 701. Insert into a Binary Search Tree
+https://leetcode.com/problems/insert-into-a-binary-search-tree/
 
-12.4 Lowest Common Ancestor in a Binary Tree (Already Done)
+
+12.4 Lowest Common Ancestor in a Binary Tree (Already Done) (Amazon List 1 - 05)
 https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
 
 12.5 Kadane's Algorithm 
 https://practice.geeksforgeeks.org/problems/kadanes-algorithm/0
+LeetCode - 53. Maximum Subarray
+https://leetcode.com/problems/maximum-subarray/
 
-12.6 Stock buy and sell 
+12.6 Stock buy and sell (Already Done)
 https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0
+LeetCode - 122. Best Time to Buy and Sell Stock II
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000
 12.7 Maximum Profit 
 https://practice.geeksforgeeks.org/problems/maximum-profit4657/1
+Leetcode Sub Problem - 123. Best Time to Buy and Sell Stock III
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+LeetCode - 188. Best Time to Buy and Sell Stock IV
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 
 12.8 What is copy constructor in CPP
 https://www.geeksforgeeks.org/copy-constructor-in-cpp/
 
-12.9 LRU Cache 
+12.9 LRU Cache (Already Done)
 https://practice.geeksforgeeks.org/problems/lru-cache/1
 
 12.10 Search in a matrix
