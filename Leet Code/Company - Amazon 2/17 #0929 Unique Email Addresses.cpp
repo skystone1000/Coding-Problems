@@ -10,28 +10,23 @@ public:
             string address = "";
             for(int i=0;i<email.size();i++){
                 char c = email[i];
-                if(c == '@'){
-                    int rem = email.size() - i;
-                    address += email.substr(i,rem);
-                    break;
-                }else if(c == '+'){
-                    while(email[i] != '@'){
+                if(c == '+'){
+                    while(email[i+1] != '@'){
                         i++;
                     }
-                    int rem = email.size() - i;
-                    address += email.substr(i,rem);
-                    break;
                 } else if(c == '.'){
                     continue;
                 } else {
                     address += c;
                 }
-            }
-            
+                
+                if(email[i] == '@'){
+                    int rem = email.size() - i ;
+                    address += email.substr(i,rem);
+                    break;
+                }
+            }   
             ans.insert(address);
-        }
-        for(auto ele:ans){
-            cout<<ele<<endl;
         }
         
         return ans.size();

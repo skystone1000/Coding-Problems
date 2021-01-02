@@ -50,6 +50,7 @@ int main(){
         
         // To Lower case
         transform(s.begin(), s.end(), s.begin(), ::tolower);
+        transform(s.begin(), s.end(), s.begin(), ::toupper); 
 
         // Unique
         vector<int>::iterator ip;

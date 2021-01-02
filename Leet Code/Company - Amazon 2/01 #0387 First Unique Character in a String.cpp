@@ -11,11 +11,6 @@ public:
         // Time : O(n2)
         
         // Method 2
-        // Sort the elements in the word and compare each element
-        // with letter previous and next if no present return the number
-        // Time : O(nlogn) - for sorting
-        
-        // Method 3 
         // Create a frequency map and iterate twice to find unique element
         // unordered_map<char,int> freq;
         // for(int i=0;i<s.size();i++){
@@ -29,7 +24,7 @@ public:
         // }
         // return -1;
         
-        // Method 4
+        // Method 3
         // Use a vector to store all 26 alphabets freq and iterate string to check first unique
         vector<int> freq(26,0);
         

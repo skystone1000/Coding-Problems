@@ -25,8 +25,10 @@ https://leetcode.com/problems/path-sum/
 08 #0027. Remove Element
 https://leetcode.com/problems/remove-element/
 
++++++++
+00000000000000000000000000000000000000000000000000000000000000
 09 #0070. Climbing Stairs
-https://leetcode.com/problems/climbing-stairs/
+https://leetcode.cok m/problems/climbing-stairs/
 
 10 #0017. Letter Combinations of a Phone Number
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
@@ -37,13 +39,15 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 12 #0771. Jewels and Stones
 https://leetcode.com/problems/jewels-and-stones/
 
+00000000000000000000000000000000000000000000000000000000000000
 13 #0011. Container With Most Water
 https://leetcode.com/problems/container-with-most-water/
 
 14 #0733. Flood Fill
 https://leetcode.com/problems/flood-fill/
 
-15 #0206. Reverse Linked List
+00000000000000000000000000000000000000000000000000000000000000
+15 #0206. Reverse Linked List (Already Done)
 https://leetcode.com/problems/reverse-linked-list/
 
 16 #0819. Most Common Word
@@ -55,16 +59,22 @@ https://leetcode.com/problems/unique-email-addresses/
 18 #0253. Meeting Rooms II (Premium)
 https://leetcode.com/problems/meeting-rooms-ii/
 
+00000000000000000000000000000000000000000000000000000000000000
 19 #0973. K Closest Points to Origin
 https://leetcode.com/problems/k-closest-points-to-origin/
 
+00000000000000000000000000000000000000000000000000000000000000
 20 #0695. Max Area of Island
 https://leetcode.com/problems/max-area-of-island/
 
++++++++
+00000000000000000000000000000000000000000000000000000000000000
 21 #0403. Frog Jump
 https://leetcode.com/problems/frog-jump/
 
-22 #23. Merge k Sorted Lists
++++++++
+00000000000000000000000000000000000000000000000000000000000000
+22 #0023. Merge k Sorted Lists
 https://leetcode.com/problems/merge-k-sorted-lists/
 
 23 #0049. Group Anagrams
