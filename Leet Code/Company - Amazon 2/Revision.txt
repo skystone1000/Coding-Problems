@@ -317,3 +317,29 @@ vector<vector<string>> groupAnagrams(vector<string> &strs){
 
     return anagrams;
 }
+
+// Problem 26
+
+vector<vector<int>> pathSum(TreeNode* root, int sum) {
+    vector<vector<int>> paths;
+    findPaths(root, sum, vector<int>() , paths);
+    return paths;
+}
+
+void findPaths(TreeNode* root, int sum, vector<int> curr, vector<vector<int>>& paths){
+    if(root == NULL) return ;
+    
+    curr.push_back(root->val);
+    if(root->val == sum && root->left == NULL && root->right == NULL){
+        paths.push_back(curr);
+        return ;
+    }
+    findPaths(root->right, sum - root->val, curr, paths);
+    findPaths(root->left, sum - root->val, curr, paths);
+}
+
+// problem 27
+
+bool isSameTree(TreeNode* p, TreeNode* q){
+    
+}
