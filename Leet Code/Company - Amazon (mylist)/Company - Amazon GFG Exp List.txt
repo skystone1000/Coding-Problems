@@ -55,6 +55,8 @@ https://practice.geeksforgeeks.org/problems/next-larger-element/0
 
 2.2  Mirror Tree 
 https://practice.geeksforgeeks.org/problems/mirror-tree/1
+#0226. Invert Binary Tree
+https://leetcode.com/problems/invert-binary-tree/
 
 2.3 Similar to first but dont know
 
@@ -94,8 +96,8 @@ https://leetcode.com/problems/copy-list-with-random-pointer/
 
 4.1 Maximize Number of 1's 
 https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1
-LeetCode - Maximize Number of 1's
-https://practice.geeksforgeeks.org/problems/maximize-number-of-1s0905/1
+#1004. Max Consecutive Ones III
+https://leetcode.com/problems/max-consecutive-ones-iii/
 
 4.2 Circular tour
 https://practice.geeksforgeeks.org/problems/circular-tour/1
