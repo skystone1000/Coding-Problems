@@ -30,8 +30,6 @@ int main(){
     cin>>testCases;
     for(int t=0;t<testCases;t++){
 
-        
-
         /*string str;
         getline(cin, str); 
         

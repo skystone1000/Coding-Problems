@@ -1,0 +1,10 @@
+Q3.
+There are six people in a family  - A, B, C, D, E, and F
+C is the sister of F.
+B is the brother of E's husband. 
+D is the father of A and grandfather of F. 
+There are two fathers, three brothers and a mother in the group.
+who is the mother?
+
+ANS -  E
+Soln - https://www.toppr.com/ask/question/there-are-six-persons-a-b-c-d-e-and-f-c-is-the-2/
