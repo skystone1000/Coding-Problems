@@ -1,0 +1,154 @@
+SETS PAIRS MAPS
+
+
+
+All STL Algorithms MAP
+
+https://www.youtube.com/watch?v=bFSnXNIsK4A
+
+HEAPS
+	1) make_heap (convert random vector to convert to heap)
+		std::make_heap(begin(numbers), end(numbers));
+	2) push_heap ( add an element)
+		std::push_heap(begin(numbers), end(numbers));
+	3) pop_heap( Remove somthing from heap )
+		std::pop_heap(begin(numbers), end(numbers));
+
+SORT
+	4) partial_sort
+	5) nth_element
+	6) sort_heap
+	7) inplace_merge
+	8) sort
+
+PARTITIONING
+	9) partition_point
+
+PERMUTATIONS
+	10) rotate
+	11) shuffle
+	12) reverse
+	12) next_permutation
+	13) prev_permutation
+
+SECRET RUNES
+	14) stable_*
+			stable_sort
+			stable_partition
+	15) is_*
+			is_sorted
+			is_partitioned
+			is_heap
+	16) is_*_until
+			is_sorted_until
+			is_partitioned_until
+			is_heap_until
+
+==============================
+LANDS OF QUERIES
+
+QUERY Value	
+	17) count
+	18) accumulate / reduce
+	19) partial_sum
+	20) inner_product
+	21) adjacent_difference
+	22) sample
+	
+QUERY PROPERTY
+	23) all_of
+	24) any_of
+	25) none_of 
+
+QUERYING A PROPERTY ON 2 RANGES
+	26) equal
+	27) lexicographical_compare
+	28) mismatch
+
+SEARCHING A VALUE
+	
+	NOT SORTED
+		29) find
+		30) adjacent_find
+	SORTED
+		31) equal_range
+		32) lower_bound
+		33) upper_bound
+		34) binary_search (return bool)
+	SEARCHING RANGE
+		35) search (search subrange into range)
+		36) find_end
+		37) find_first_of
+	SEARCHING RELATIVE VALUE
+		38) max_element
+		39) min_element
+		40) minmax_element
+
+ALGORITHMS AND SETS		
+	41) set_difference
+	42) set_intersection
+	43) set_union
+	44) set_symmetric_difference
+	45) includes
+	46) merge
+
+MOVERS
+	47) copy 
+	48) move
+	49) swap_ranges
+	50) copy_backward
+	51) move_backward
+
+VALUE MODIFIERS
+	52) fill
+	53) generate
+	54) iota
+	55) replace
+
+STRUCTURE CHANGERS
+	56) remove
+	57) unique
+
+*_copy
+	58) remove_copy 
+	59) unique_copy
+	60) reverse_copy
+	61) rotate_copy
+	62) replace_copy
+	63) partition_copy
+	64) partial_sort_copy
+
+*_if	
+	65) find_if
+	66) find_if_not
+	67) count_if
+	68) remove_if
+	69) remove_copy_if
+	70) replace_if
+	71) replace_copy_if
+	72) copy_if
+
+
+	73) transform 
+	74) for_each(begin(collection), end(collection), f)
+
+RAW MEMORY
+	uninitialized_
+		75) uninitialized_fill
+		76) uninitialized_copy
+		77) uninitialized_move
+		78) destroy
+		79) uninitialized_default_construct
+		80) uninitialized_value_construct
+	_n
+	81) copy_n 
+	82) fill_n
+	83) generate_n
+	84) search_n
+	85) for_each_n
+	86) uninitialized_copy_n
+	87) uninitialized_fill_n
+	88) uninitialized_move_n
+	89) uninitialized_default_construct_n
+	90) uninitialized_value_construct_n
+	91) destroy_n
