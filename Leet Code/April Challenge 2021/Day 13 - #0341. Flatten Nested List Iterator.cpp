@@ -38,11 +38,11 @@ public:
     }
     
     int next() {
-    	// int ans = -1;
-    	// if(i<output.size()){
-    	// ans = output[i];
-    	// i++;
-    	// }
+    	int ans = -1;
+    	if(i<output.size()){
+            ans = output[i];
+            i++;
+    	}
         
         /* OR Way 2
         int ans = output.at(i);
