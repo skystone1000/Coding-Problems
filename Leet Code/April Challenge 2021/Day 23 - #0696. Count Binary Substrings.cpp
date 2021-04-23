@@ -2,7 +2,7 @@
 // #0696. Count Binary Substrings
 // https://leetcode.com/problems/count-binary-substrings/
 
-// Time - O(N), Space - O(N)
+// Time - O(N), Space - O(1)
 class Solution {
 public:
     int countBinarySubstrings(string s) {
