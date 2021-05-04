@@ -5,7 +5,7 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-void dfs(int s, vector<int> g[], bool *vis);
+void bfs(int s, vector<int> adj[], bool vis[],int N);
 
 int main(){
     cout<<"===== Program for BFS in Graph =====\n"<<endl;
@@ -18,9 +18,9 @@ int main(){
 		cin>>N;
         cout<<"Enter Total Edges in graph: ";
         cin>>E;
-		vector<int> adj[N]; // Array of 5 vectors
-		bool vis[N]; // Visited Array
-		memset(vis, false, sizeof(vis));
+		vector<int> adj[N]; // Array of N vectors
+		bool vis[N] = {false}; // Visited Array
+		// memset(vis, false, sizeof(vis));
         
         cout<<"\nNote: Please enter node names starting from '0' while giving edges.\n"<<endl;
         // Building Adjacency List of Graph
@@ -28,12 +28,12 @@ int main(){
             cout<<"Enter two nodes for edge: ";
 			int u,v;
 			cin>>u>>v;
-			g[u].push_back(v);  // undirected Graph so adding both
-			g[v].push_back(u);
+			adj[u].push_back(v);  // directed Graph so adding just in one
+			// g[v].push_back(u);
 		}
 
-        cout<<"DFS starting from Node '0' is: ";
-		dfs(0,g,vis);
+        cout<<"BFS starting from Node '0' is: ";
+		bfs(0,adj,vis,N);
 		cout<<endl;
 	}
 }
@@ -43,12 +43,20 @@ int main(){
 	vis[]: array to keep track of visited vertex
 */
 
-void dfs(int s, vector<int> g[], bool *vis){
+void bfs(int s, vector<int> adj[], bool vis[],int N){
+	queue<int> q;
+	q.push(s);
 	vis[s] = true;
-	cout<<s<< " ";
-	for(int i=0; i<g[s].size();i++){
-		if(vis[g[s][i]] == false){
-			dfs(g[s][i], g, vis);
+
+	while(!q.empty()){
+		int curr = q.front();
+		q.pop();
+		cout<<curr<<" ";
+		for(int i=0; i<adj[curr].size();i++){
+			if(vis[adj[curr][i]] == false){
+				q.push(adj[curr][i]);
+				vis[adj[curr][i]] = true;
+			}
 		}
 	}
 }
