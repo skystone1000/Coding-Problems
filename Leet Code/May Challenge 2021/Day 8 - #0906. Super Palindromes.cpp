@@ -4,22 +4,23 @@
 
 class Solution {
 public:
-    
-    bool isPallindrome(string s){
-        string rev = s;
-        reverse(rev.begin(),rev.end());
-        return s == rev;
+    #define ll long long
+    bool isPalindrome(string s){
+        for(ll i=0;i<s.length()/2;i++)
+            if(s[i]!=s[s.length()-i-1])
+                return false;
+        
+        return true;
     }
     
     int superpalindromesInRange(string left, string right){
-        long long l = stoll(left);
-        long long r = stoll(right);
-        vector<long long> store;
-        
-        for(int i=1;i<10;i++)
+        ll l = stoll(left);
+        ll r = stoll(right);
+        vector<ll> store;
+        for(ll i=1;i<10;i++)
             store.push_back(i);
         
-        for(int i=1;i<=1e4;i++){
+        for(ll i=1;i<=1e4;i++){
             string s1 = to_string(i);
             string s2 = to_string(i);
             reverse(s2.begin(),s2.end());
@@ -27,9 +28,11 @@ public:
             // even length palindromes
             store.push_back(stoll(s1+s2));
             // odd length palindromes
-            for(int j=0;j<10;j++){
-                string temp;
-                temp = s1 + to_string(j) + s2;
+            for(ll j=0;j<10;j++){
+                string temp = s1;
+                temp+=(j+'0');
+                temp+=s2;
+                
                 store.push_back(stoll(temp));
             }
         }
@@ -38,8 +41,8 @@ public:
         for(auto it:store){
             if(it>1e9)
                 continue;
-            long long num = it*it;
-            if(num<=r and num>=l and isPallindrome(to_string(num)))
+            ll num = it*it;
+            if(num<=r and num>=l and isPalindrome(to_string(num)))
                 ans++;
         }
         
