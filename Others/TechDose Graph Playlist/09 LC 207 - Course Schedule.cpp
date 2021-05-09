@@ -2,6 +2,19 @@
 
 // #09 LC 207 - Course Schedule - Deadlock Detection, Graph Coloring
 
+/*
+    - Deadlock Detection (Single resource instance distributed system)
+    If we have cycle in a graph then we will have deadlock
+    - Why Directed graph?
+    In order to give meaning to directionality
+    - Cycle Detection (Graph coloring)
+    Time - O(V+E)
+
+    0 - Unvisited
+    1 - Processed
+    2 - processing 
+*/
+
 class Solution{
 
     bool isCyclic(vector<vector<int>& adj, vector<int>& visited, int curr){
@@ -10,6 +23,7 @@ class Solution{
 
         visited[curr] = 2;
         for(int i=0;i<adj[curr].size();i++){
+            // Skipping already processed Nodes
             if(visited[adj[curr][i]] != 1)
                 if(isCyclic(adj,visited, adj[curr][i]))
                     return true;
