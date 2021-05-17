@@ -37,6 +37,7 @@ public:
     }
 };
 
+/*
 // Method 2 (Iterative - Reverse PostOrder)
 class Solution {
 public:
@@ -74,3 +75,5 @@ public:
         prev = root;
     }
 };
+
+*/
