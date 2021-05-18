@@ -11,20 +11,21 @@ public:
         for(string path: paths) {
             string pt;
             int i;
-            for(i = 0; i <  path.size() && path[i] != ' '; i++) pt += path[i];
+            for(i = 0; i <  path.size() && path[i] != ' '; i++) 
+                pt += path[i];
             pt += '/'; // common part for every file
             i++; // skip the space
             
             while(i < path.size()) {
-                string temp, file;
+                string file, data;
                 
                 while(i < path.size() && path[i] != '(') 
-                    temp += path[i++];
-                
-                while(i < path.size() && path[i] != ' ') 
                     file += path[i++];
                 
-                m[file].push_back(pt + temp);
+                while(i < path.size() && path[i] != ' ') 
+                    data += path[i++];
+                
+                m[data].push_back(pt + file);
                 ++i;
             }
         }
