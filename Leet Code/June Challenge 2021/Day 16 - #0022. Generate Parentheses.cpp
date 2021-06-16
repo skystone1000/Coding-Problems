@@ -5,6 +5,41 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// Method 1 (Brute Force)
+class Solution {
+public:
+    vector <string> ans;
+    bool valid(string a){
+        int balance = 0;
+        for (char c: a) {
+            if (c == '(') 
+                balance++;
+            else 
+                balance--;
+            if (balance < 0) return false;
+        }
+        return (balance == 0);
+    }
+    
+    void brackets(int i, int n, string a){
+        if(i==2*n){
+            if(valid(a))
+                ans.push_back(a);
+            return;
+        }
+        a.push_back('(');
+        brackets(i+1,n,a);
+        a.pop_back();
+        a.push_back(')');
+        brackets(i+1,n,a);
+    }
+    
+    vector<string> generateParenthesis(int n) {
+        brackets(0,n,"");
+        return ans;
+    }
+};
+
 // Method 2 (Recursion)
 class Solution {
 public:
