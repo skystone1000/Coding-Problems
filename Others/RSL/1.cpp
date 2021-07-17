@@ -3,7 +3,7 @@
 
 using namespace std;
 
-string revFunc() {
+string repFunc() {
     string a;
     cin>>a;
     vector<string> arr;
@@ -23,11 +23,15 @@ string revFunc() {
     }
     
     string finalStr;
-    for(int i=arr.size()-1;i>=0;i--){
-        if(i == 0){
-                finalStr += arr[i];
+    for(int i=0;i<arr.size();i++){
+        if(i % 2 == 1){
+                finalStr += "abc";
         } else {
-                finalStr += arr[i] + ".";
+                finalStr += arr[i];
+        }
+
+        if(i != arr.size()){
+                finalStr += finalStr + '.';
         }
     }
     
@@ -39,7 +43,7 @@ int main(){
 
     // string a = "i.like.this.program.very.much";
     
-    string finalStr = revFunc();
+    string finalStr = repFunc();
     cout<<finalStr<<endl;
 
     return 0;
