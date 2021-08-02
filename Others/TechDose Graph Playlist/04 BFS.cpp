@@ -29,7 +29,7 @@ int main(){
 			int u,v;
 			cin>>u>>v;
 			adj[u].push_back(v);  // directed Graph so adding just in one
-			// g[v].push_back(u);
+			// adj[v].push_back(u);
 		}
 
         cout<<"BFS starting from Node '0' is: ";
@@ -41,6 +41,7 @@ int main(){
 /*
 	g[]: array of vectors to represent graph
 	vis[]: array to keep track of visited vertex
+	s: starting position of bfs
 */
 
 void bfs(int s, vector<int> adj[], bool vis[],int N){

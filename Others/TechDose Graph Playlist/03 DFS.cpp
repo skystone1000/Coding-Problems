@@ -28,7 +28,7 @@ int main(){
             cout<<"Enter two nodes for edge: ";
 			int u,v;
 			cin>>u>>v;
-			g[u].push_back(v);
+			g[u].push_back(v);  // Undirected graph so adding both
 			g[v].push_back(u);
 		}
 
@@ -41,6 +41,7 @@ int main(){
 /*
 	g[]: array of vectors to represent graph
 	vis[]: array to keep track of visited vertex
+	s: starting position of dfs
 */
 
 void dfs(int s, vector<int> g[], bool *vis){
