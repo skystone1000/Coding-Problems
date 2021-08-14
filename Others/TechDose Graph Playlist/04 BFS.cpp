@@ -34,6 +34,7 @@ int main(){
 
         cout<<"BFS starting from Node '0' is: ";
 		bfs(0,adj,vis,N);
+		// TODO - Check why N is passed (i think it would work without it)
 		cout<<endl;
 	}
 }
