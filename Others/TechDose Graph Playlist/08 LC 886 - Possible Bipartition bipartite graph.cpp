@@ -34,6 +34,9 @@
 
 */
 
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution{
     bool isBipartite(vector<vector<int>>& adj, int N, int node, vector<int>& color){
         queue<int> q;
