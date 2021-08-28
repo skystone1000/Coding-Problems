@@ -1,6 +1,7 @@
 // GRAPHS PLAYLIST TECHDOSE
 
 // #08 LC - 886 Possible Bipartition bipartite graph - Graph Coloring
+// https://leetcode.com/problems/possible-bipartition/
 
 /*
     Approach (without Graph)
