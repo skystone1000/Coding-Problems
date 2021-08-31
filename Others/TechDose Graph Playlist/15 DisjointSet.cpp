@@ -3,6 +3,41 @@
 // #15 Disjoint Set UNION and FIND
 // Time Complexity: O(E.V)
 
+/*
+    1) Disjoint  Set: Two or more sets with nothing in common are called disjoint sets
+        1 2 3 4 5 =>  1 2 3     (s1)
+                      4 5       (s2)
+
+        S1 ^(intersection) S2 = PHI  (In Disjoint Set)
+
+        - Uses Of Disjoint set
+            a) Keeps track of the SET that an element belongs to. Therefore it is easier to check, given 2 elements,
+            whether they belong to same subset. (FIND OPERATION)
+                S(1) == S(2) ?
+
+            1,2,3,4 | 5,6,7
+                S1      S2
+
+            b) Used to merge 2 sets into one (UNION OPERATION)
+            Union of 2 elements is same as union of 2 SETs.
+
+            1,2,3 (UNION) 5,6,7  =>  1,2,3,5,6,7
+              S1            S2
+
+        - Set Representation 
+        Disjoin set uses chaining to define a set. The chaining is defined by a parent child relationship.
+        That is the elements are represent in heirarchical format (Tree format) (Str of set doesn't matter)
+
+        Check 5:35 of video for representation
+
+        - 2 Set Representation (5:55)
+
+        - Operations on SET (7:22)
+            a) FIND
+            b) UNION
+*/
+
+// Code
 #include<iostream>
 #include<vector>
 
