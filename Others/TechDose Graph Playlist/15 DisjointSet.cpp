@@ -35,6 +35,33 @@
         - Operations on SET (7:22)
             a) FIND
             b) UNION
+
+        a) Find Operation(8:52)
+            If root parent of A & B are same then they must be in the same SET
+            Examples
+
+        b) Union of 2 Sets (11:17)
+            Union of 2 elements
+            Union of one element and a set 
+            Union of all elements in 2 sets
+            All are the same
+
+            To get the union (the process of merging)==>
+                Step 1: Find Absolute root of both the elements
+                Step 2: Point absolute root of 1st point to absolute root of 2nd or
+                        (vice versa) absolute root of 2nd point to absolute root of 1st 
+
+                To optimize this we can take union by rank
+
+            Example
+
+
+        Exampe Problem : Detect Cycle in an Undirected Graph using Disjoint set(13:57)
+        Disjoint set can't detect cycle in a directed graph
+
+
+
+
 */
 
 // Code
