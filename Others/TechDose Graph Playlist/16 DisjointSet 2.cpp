@@ -2,6 +2,50 @@
 
 // #16 Disjoint Set - UNION by RANK and Path compression
 
+/*
+
+1) RECAP
+    DS => Disjoint Set
+    -> DS can be represented using TREE structure
+    -> DS can be represented using ARRAY
+    -> DS can determine if 2 given points belong to same set
+    -> DS can not detect cycle in a directed graph (It does not take care of directionaity)
+    -> UNION and FIND are 2  Important Operartions
+
+2) Time Complexity
+    Brute Force === 
+        Find => O(n), UNION => O(n)
+    Optimized   ===
+        Find => O(logn), UNION => O(logn)
+
+3) FIND
+    a) Brute Force FIND - (1:23)
+
+    b) Path Compression FIND
+
+    NOTE
+    - Path compression reduces the height of the tree
+    - RANK of the TREE remains the same
+    - It leads to O(logn) performance for FIND & UNION
+
+4) UNION
+    a) UNION by Rank (6:52)
+
+
+    b) Why UNION by RANK ans not by HEIGHT (11:12)
+        This is becauseinitially RANK is same as height, but PATH COMPRESSION
+        may change height but its RANK remains same 
+
+5) Implementation
+    a) Node Structure
+        Struct Node{
+            int parent;
+            int rank;
+        }
+    b) Cycle detection in an undirected graph (13:36)
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 

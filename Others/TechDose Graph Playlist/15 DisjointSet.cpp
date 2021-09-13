@@ -59,7 +59,22 @@
         Exampe Problem : Detect Cycle in an Undirected Graph using Disjoint set(13:57)
         Disjoint set can't detect cycle in a directed graph
 
+        Given: A set edges which represent the graph
 
+        Concept: 
+        1) We go with array representation and treat all nodes to be independent initially (Not connected)
+        2) We then iterate through the set of edges given 
+            a) For each pair of nodes(edge) we check if they are in same set (FIND Operation)
+            b) If they are in same set ==> we found a cycle
+               else ==> add the new node to set (UNION Operation)
+
+        Time Complexity: O( E * V ) (19:59)
+        E => Process all edges
+        V => FIND or UNION worst case in a skewed str
+
+        Disjoint Set can't detect cycle in a directed graph because UNION operation has no directionality
+        (A V B) ==> It doesn't mean (A to B) or (B to A)
+        We can't make directional decisions.  
 
 
 */
@@ -108,9 +123,9 @@ int main(){
     cin>>E>>V;
 
     // Mark all vertices as separate subsets with only 1 element
-    dsuf.resize(V, -1);
+    dsuf.resize(V, -1); // Disjoint set Union Find  Operation
 
-    // Adjacency List
+    // Adjacency List (From, To)
     vector<pair<int,int>> edge_List;
     for(int i=0;i<E;i++){
         int from, to;

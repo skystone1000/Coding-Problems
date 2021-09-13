@@ -2,6 +2,32 @@
 
 // #18 Prims Algorithm MST
 
+/*
+    No of vertices = v
+    No of Edges in MST = (V-1)
+
+Prims Algo
+    - Greedy Algorithm
+    - Select min value option at every step (therefore min cost)
+
+Steps in Prims Algo (1:55)
+    - All Node weights are infinite except SOURCE
+        Because we need to SELECT SOURCE first
+    1) Select Node with min weight (or the one which is the source)
+    2) Include selected Node in the setMST
+    3) Relax/Compute all adjacent edges
+
+    Repeat 1->2->3->1 unless all the vertices are included in MST
+
+        
+
+
+
+
+
+
+*/
+
 // TIME Complexity: O(V^2)
 #include<bits/stdc++.h>
 using namespace std;
