@@ -3,6 +3,9 @@
 // #18 Prims Algorithm MST
 
 /*
+Intro
+    MST (Minimum Spanning Tree)
+    Greedy, graph Algo
     No of vertices = v
     No of Edges in MST = (V-1)
 
@@ -11,7 +14,7 @@ Prims Algo
     - Select min value option at every step (therefore min cost)
 
 Steps in Prims Algo (1:55)
-    - All Node weights are infinite except SOURCE
+    - Make All Node weights infinite except SOURCE
         Because we need to SELECT SOURCE first
     1) Select Node with min weight (or the one which is the source)
     2) Include selected Node in the setMST
