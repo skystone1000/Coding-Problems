@@ -1,10 +1,12 @@
-###################################################
-12. Copy List With Random Pointer
-https://leetcode.com/problems/copy-list-with-random-pointer/
+// Amazon Question - Blogspot List 1 + Java sol
+
+// ###################################################
+// 12. Copy List With Random Pointer
+// https://leetcode.com/problems/copy-list-with-random-pointer/
 
 
-###################################################
-13. Longest Substring With Out Repeating Characters
+// ###################################################
+// 13. Longest Substring With Out Repeating Characters
 
 class Solution {
     public int lengthOfLongestSubstring(String s) {
@@ -29,13 +31,13 @@ class Solution {
 }
 
 
-###################################################
-14. Trapping Rain Water
-https://leetcode.com/problems/trapping-rain-water/
+// ###################################################
+// 14. Trapping Rain Water
+// https://leetcode.com/problems/trapping-rain-water/
 
 
-###################################################
-15. Min Stack
+// ###################################################
+// 15. Min Stack
 
 
 class MinStack{
@@ -88,8 +90,8 @@ public:
 
 
 
-###################################################
-16. Lowest Common Ancestor Of a Binary Search Tree
+// ###################################################
+// 16. Lowest Common Ancestor Of a Binary Search Tree
 
 
 struct TreeNode{
@@ -116,8 +118,8 @@ class Solution{
 };
 
 
-###################################################
-17. Rotate Image
+// ###################################################
+// 17. Rotate Image
 
 class Solution {
     public void rotate(int[][] matrix) {
@@ -143,8 +145,8 @@ class Solution {
 
 
 
-###################################################
-18. #0121 Best Time To Buy And Sell Stock
+// ###################################################
+// 18. #0121 Best Time To Buy And Sell Stock
 
 class Solution {
     public int maxProfit(int[] prices){
@@ -163,8 +165,8 @@ class Solution {
 }
 
 
-###################################################
-19. #0098 Validate Binary Search Tree
+// ###################################################
+// 19. #0098 Validate Binary Search Tree
 
 class Solution{
     public boolean isValidBST(TreeNode root){
@@ -183,12 +185,12 @@ class Solution{
     }
 }
 
-###################################################
-20. Word Break
+// ###################################################
+// 20. Word Break
 
 
-###################################################
-21. Linked List Cycle
+// ###################################################
+// 21. Linked List Cycle
 
 struct ListNode{
     int val;
@@ -218,8 +220,8 @@ public:
 };
 
 
-###################################################
-22. #0049 Group Anagrams
+// ###################################################
+// 22. #0049 Group Anagrams
 
 class Solution{
 public:
@@ -246,8 +248,8 @@ public:
 };
 
 
-###################################################
-23. #0015 3Sum
+// ###################################################
+// 23. #0015 3Sum
 
 
 class Solution {
@@ -284,8 +286,8 @@ class Solution {
     }
 }
 
-###################################################
-24. Product Of Array Except Self
+// ###################################################
+// 24. Product Of Array Except Self
 
 class Solution {
     vector<int> productExceptSelf(vector<int>& nums){
@@ -314,8 +316,8 @@ class Solution {
 }
 
 
-###################################################
-25. Valid Anagram
+// ###################################################
+// 25. Valid Anagram
 
 class Solution {
     public boolean isAnagram (String s, String t) {
@@ -340,15 +342,15 @@ class Solution {
 }
 
 
-###################################################
-26. Sliding Window Maximum
-https://leetcode.com/problems/sliding-window-maximum/
+// ###################################################
+// 26. Sliding Window Maximum
+// https://leetcode.com/problems/sliding-window-maximum/
 
 
 
-###################################################
-27. Search A 2D Matrix
-https://leetcode.com/problems/search-a-2d-matrix-ii/
+// ###################################################
+// 27. Search A 2D Matrix
+// https://leetcode.com/problems/search-a-2d-matrix-ii/
 
 
 class Solution {
@@ -377,9 +379,9 @@ class Solution {
     }
 }
 
-###################################################
-28. Merge Two Sorted Lists
-https://leetcode.com/problems/merge-two-sorted-lists/
+// ###################################################
+// 28. Merge Two Sorted Lists
+// https://leetcode.com/problems/merge-two-sorted-lists/
 
 struct ListNode{
     int val;
@@ -415,11 +417,11 @@ class Solution{
     }
 };
 
-###################################################
-29. Merge K Sorted Lists
-https://leetcode.com/problems/merge-k-sorted-lists/
+// ###################################################
+// 29. Merge K Sorted Lists
+// https://leetcode.com/problems/merge-k-sorted-lists/
 
-(MIN AND MAX HEAP)
+// (MIN AND MAX HEAP)
 class Solution{
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists){
@@ -454,17 +456,17 @@ public:
     }
 };
 
-###################################################
-30. Word Ladder II
-https://leetcode.com/problems/word-ladder-ii/
+// ###################################################
+// 30. Word Ladder II
+// https://leetcode.com/problems/word-ladder-ii/
 
 
 
-###################################################
-31. Kth Largest Element In An Array
-https://leetcode.com/problems/kth-largest-element-in-an-array/
+// ###################################################
+// 31. Kth Largest Element In An Array
+// https://leetcode.com/problems/kth-largest-element-in-an-array/
 
-(MIN AND MAX HEAP)
+// (MIN AND MAX HEAP)
 
 class KthLargest{
     int K;
@@ -488,9 +490,9 @@ public:
 };
 
 
-###################################################
-32. Palindrome Linked List
-https://leetcode.com/problems/palindrome-linked-list/
+// ###################################################
+// 32. Palindrome Linked List
+// https://leetcode.com/problems/palindrome-linked-list/
 
 class Solution {
     public boolean isPalindrome(ListNode head){
@@ -531,9 +533,9 @@ class Solution {
 }
 
 
-###################################################
-33. Intersection Of Two Linked Lists
-https://leetcode.com/problems/intersection-of-two-linked-lists/
+// ###################################################
+// 33. Intersection Of Two Linked Lists
+// https://leetcode.com/problems/intersection-of-two-linked-lists/
 
 class Solution {
 public: 
@@ -580,9 +582,9 @@ class Solution{
     }
 }
 
-###################################################
-34. Subsets
-https://leetcode.com/problems/subsets/
+// ###################################################
+// 34. Subsets
+// https://leetcode.com/problems/subsets/
 
 class Solution {
 public:
@@ -603,9 +605,9 @@ public:
 }
 
 
-###################################################
-35. String To Integer
-https://leetcode.com/problems/string-to-integer-atoi/
+// ###################################################
+// 35. String To Integer
+// https://leetcode.com/problems/string-to-integer-atoi/
 
 class Solution {
     int atoi(string str){
@@ -621,7 +623,7 @@ class Solution {
         while(str[i]){
             if(!(str[i]-'0'>=0 && str[i]-'0'<=9))
                 return -1;
-            result = result*10 + str[i] - '0;
+            result = result*10 + str[i] - '0';
             i++;
         }
     }
@@ -630,9 +632,9 @@ class Solution {
 };
 
 
-###################################################
-36. First Unique Character In a String
-https://leetcode.com/problems/first-unique-character-in-a-string/
+// ###################################################
+// 36. First Unique Character In a String
+// https://leetcode.com/problems/first-unique-character-in-a-string/
 
 class Solution{
 public:
@@ -650,9 +652,9 @@ public:
     return -1;
 };
 
-###################################################
-37. Binary Tree Level Order Traversal
-https://leetcode.com/problems/binary-tree-level-order-traversal/
+// ###################################################
+// 37. Binary Tree Level Order Traversal
+// https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 struct TreeNode{
     int val;
@@ -695,9 +697,9 @@ class Solution{
     }
 };
 
-###################################################
-38. Count Primes
-https://leetcode.com/problems/count-primes/
+// ###################################################
+// 38. Count Primes
+// https://leetcode.com/problems/count-primes/
 
 class Solution{
 public:
@@ -722,13 +724,13 @@ public:
     }
 };
 
-###################################################
-39. Gray Code
-https://leetcode.com/problems/gray-code/
+// ###################################################
+// 39. Gray Code
+// https://leetcode.com/problems/gray-code/
 
-###################################################
-40. Two Sum Input Array Is Sorted
-https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+// ###################################################
+// 40. Two Sum Input Array Is Sorted
+// https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 
 class Solution{
 public:
@@ -751,9 +753,9 @@ public:
 
 }
 
-###################################################
-41. Insert Delete Get In Random O(1)
-https://leetcode.com/problems/insert-delete-getrandom-o1/
+// ###################################################
+// 41. Insert Delete Get In Random O(1)
+// https://leetcode.com/problems/insert-delete-getrandom-o1/
 
 class RandomizedSet{
     vector<int> v;
@@ -790,9 +792,9 @@ public:
 };
 
 
-###################################################
-42. Binary Tree Right Side View
-https://leetcode.com/problems/binary-tree-right-side-view/
+// ###################################################
+// 42. Binary Tree Right Side View
+// https://leetcode.com/problems/binary-tree-right-side-view/
 
 class Solution{
     vector<int> rightSideView(TreeNode* root){
@@ -825,14 +827,14 @@ class Solution{
 };
 
 
-###################################################
-43. Design Twitter
-https://leetcode.com/problems/design-twitter/
+// ###################################################
+// 43. Design Twitter
+// https://leetcode.com/problems/design-twitter/
 
-###################################################
-44. Reverse Words In A String II (Premium)
-https://leetcode.com/problems/reverse-words-in-a-string-ii/
+// ###################################################
+// 44. Reverse Words In A String II (Premium)
+// https://leetcode.com/problems/reverse-words-in-a-string-ii/
 
-###################################################
-45. Rotate Function
-https://leetcode.com/problems/rotate-function/
+// ###################################################
+// 45. Rotate Function
+// https://leetcode.com/problems/rotate-function/

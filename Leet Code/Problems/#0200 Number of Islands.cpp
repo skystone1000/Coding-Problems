@@ -1,4 +1,6 @@
-// #0200 Number of Islands
+// Company Amazon
+// 03 #0200 Number of Islands
+// https://leetcode.com/problems/number-of-islands/
 
 class Solution {
 public:

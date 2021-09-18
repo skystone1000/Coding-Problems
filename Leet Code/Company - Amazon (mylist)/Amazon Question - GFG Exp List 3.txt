@@ -1,4 +1,7 @@
+Amazon Question - GFG Exp List 3
 GFG Amazon Intern Experiences Questions
+https://docs.google.com/document/d/1vcuMefKIDTWfu_gl_89ozUbQpXYEsIgzTVHJzZqZscs/edit
+
 (EXP 5, 8 Not done)
 
 1.1 Overlapping Intervals 
