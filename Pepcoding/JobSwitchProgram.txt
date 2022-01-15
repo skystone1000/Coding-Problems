@@ -1,0 +1,19 @@
+Job Switch Program
+
+Day 1
+    1) Is a number prime
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/is_a_number_prime/topic
+    2) Reverse a number
+        https://leetcode.com/problems/reverse-integer/
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/reverse-a-number-official/ojquestion	
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/reverse_a_number/topic
+    3) Inverse a number
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/inverse_of_number/topic
+    4) Rotate a number
+        https://leetcode.com/problems/rotated-digits/
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/rotate-a-number-official/ojquestion	
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/rotate_a_number/topic
+    5) Gcd lcm
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/gcd-and-lcm-official/ojquestion	
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/gcd_and_lcm/topic
+
