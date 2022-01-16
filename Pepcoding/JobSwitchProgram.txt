@@ -2,12 +2,14 @@ Job Switch Program
 
 Day 1
     1) Is a number prime
+        https://pepcoding.com/resources/online-java-foundation/getting-started/is-number-prime-official/ojquestion
         https://www.pepcoding.com/resources/online-java-foundation/getting-started/is_a_number_prime/topic
     2) Reverse a number
         https://leetcode.com/problems/reverse-integer/
         https://www.pepcoding.com/resources/online-java-foundation/getting-started/reverse-a-number-official/ojquestion	
         https://www.pepcoding.com/resources/online-java-foundation/getting-started/reverse_a_number/topic
     3) Inverse a number
+        https://www.pepcoding.com/resources/online-java-foundation/getting-started/inverse-of-a-number-official/ojquestion
         https://www.pepcoding.com/resources/online-java-foundation/getting-started/inverse_of_number/topic
     4) Rotate a number
         https://leetcode.com/problems/rotated-digits/
