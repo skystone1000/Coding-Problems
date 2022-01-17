@@ -1,3 +1,7 @@
+// Pepcoding
+// Ques - https://www.pepcoding.com/resources/online-java-foundation/getting-started/reverse-a-number-official/ojquestion
+// Soln - https://www.pepcoding.com/resources/online-java-foundation/getting-started/reverse_a_number/topic
+
 #include <iostream>
 using namespace std;
 
