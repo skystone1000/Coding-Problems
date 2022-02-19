@@ -1,40 +1,37 @@
 #include<iostream>
 #include<vector>
-
 using namespace std;
 
 string repFunc() {
-    string a;
-    cin>>a;
-    vector<string> arr;
+    string a = "i.like.this.program.very.much";
+    // cin>>a;
     string word = "";
+    string finalStr = "";
+	int wordCount = 0;
     for(int i=0;i<a.size();i++){
-        if(a[i] == '.'){
-                arr.push_back(word);
-                word = "";
-        } else {
-                word += a[i];
-        }
-
-        if(i == a.size()-1){
-                arr.push_back(word);
-                word = "";
-        }
-    }
-    
-    string finalStr;
-    for(int i=0;i<arr.size();i++){
-        if(i % 2 == 1){
-                finalStr += "abc";
-        } else {
-                finalStr += arr[i];
-        }
-
-        if(i != arr.size()){
-                finalStr += finalStr + '.';
+        if(a[i] != '.'){
+            word += a[i];
+        }else{
+			if(wordCount % 2 == 0){
+				finalStr += word + ".";
+				word = "";	
+			}else{
+				finalStr += "abc.";
+				word = "";	
+			}
+			wordCount++;
         }
     }
-    
+
+	if(word != ""){
+		if(wordCount % 2 == 0){
+			finalStr += word;
+			word = "";	
+		}else{
+			finalStr += "abc";
+			word = "";	
+		}
+	}
     return finalStr;
 }
 
