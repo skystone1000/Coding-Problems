@@ -1,5 +1,6 @@
 #include<iostream>
 #include <climits>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -26,4 +27,8 @@ int main(){
         cout<<ans[i]<<" ";
     }
     return 0;
+}
+
+bool isCyclic(int V, vector<int> adj[]){
+    vector<bool> visited(V, false);
 }
