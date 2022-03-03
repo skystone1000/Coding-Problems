@@ -32,6 +32,8 @@ int main(){
 			// adj[v].push_back(u);
 		}
 
+		// Assuming that we have only one component - 
+		// else we need a for loop for all vertices
         cout<<"BFS starting from Node '0' is: ";
 		bfs(0,adj,vis,N);
 		// TODO - Check why N is passed (i think it would work without it)
