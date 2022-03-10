@@ -16,9 +16,10 @@ public:
 	vector<int>dfsOfGraph(int V, vector<int> adj[]){
 	    vector<int> storeDfs; 
 	    vector<int> vis(V+1, 0); 
-      for(int i = 1;i<=V;i++) {
-        if(!vis[i]) dfs(i, vis, adj, storeDfs); 
-      }
+		for(int i = 1;i<=V;i++) {
+			if(!vis[i]) 
+				dfs(i, vis, adj, storeDfs); 
+		}
 	    return storeDfs; 
 	}
 };

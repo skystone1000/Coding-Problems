@@ -9,8 +9,6 @@ class Solution {
 public:
     bool checkForCycle(int s, int V, vector<int> adj[], vector<int>& visited)
     {
-        vector<int> parent(V, -1);
-     
         // Create a queue for BFS
         queue<pair<int,int>> q;
      
@@ -39,7 +37,8 @@ public:
 	    vector<int> vis(V, 0); 
 	    for(int i = 0;i<V;i++) {
 	        if(!vis[i]) {
-	            if(checkForCycle(i, V, adj, vis)) return true; 
+	            if(checkForCycle(i, V, adj, vis)) 
+					return true; 
 	        }
 	    }
 	    

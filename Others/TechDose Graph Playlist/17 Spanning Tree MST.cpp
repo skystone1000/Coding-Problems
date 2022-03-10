@@ -22,7 +22,7 @@
         All Spanning Trees have same number of edges
 
         - A connected and unidirected graph has atleast 1 Spanning tree
-        - A complete undirected graph has N^(N-2) number od different Spanning Trees possible
+        - A complete undirected graph has N^(N-2) number of different Spanning Trees possible
         (A complete graph has an edge from every node to every other node) 
         - Spanning tree is minimally connected, i.e.e removing 1 edge will disconnect the graph
         - Spanning Tree is maximally Acyclic, i.e. adding 1 edge wll form a cycle in graph
