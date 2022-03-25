@@ -20,9 +20,10 @@ bool bipartiteBfs(int src, vector<int> adj[], int color[]) {
     }
     return true; 
 }
+
 bool checkBipartite(vector<int> adj[], int n) {
     int color[n];
-    memset(color, -1, sizeof color); 
+    memset(color, -1, sizeof(color)); 
     for(int i = 0;i<n;i++) {
         if(color[i] == -1) {
             if(!bipartiteBfs(i, adj, color)) {
@@ -32,6 +33,7 @@ bool checkBipartite(vector<int> adj[], int n) {
     }
     return true; 
 }
+
 int main() {
 	int n, m;
 	cin >> n >> m;
