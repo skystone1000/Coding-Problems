@@ -18,19 +18,19 @@ private:
     }
 public:
 	bool isCyclic(int N, vector<int> adj[]) {
-	   int vis[N], dfsVis[N]; 
-	   memset(vis, 0, sizeof vis); 
-	   memset(dfsVis, 0, sizeof dfsVis); 
+	    int vis[N], dfsVis[N]; 
+	    memset(vis, 0, sizeof vis); 
+	    memset(dfsVis, 0, sizeof dfsVis); 
 	   
-	   for(int i = 0;i<N;i++) {
-	       if(!vis[i]) {
-	           // cout << i << endl; 
-	           if(checkCycle(i, adj, vis, dfsVis)) {
+		for(int i = 0;i<N;i++) {
+	        if(!vis[i]) {
+	            // cout << i << endl; 
+	            if(checkCycle(i, adj, vis, dfsVis)) {
 	               return true; 
-	           }
-	       }
-	   }
-	   return false; 
+	            }
+	        }
+	    }
+	    return false; 
 	}
 };
 
