@@ -26,18 +26,18 @@ using namespace std;
 int subsetSum(vector<int> &nums, int total){
     int n = nums.size();
     int w = total;
-    int t[n+1][w+1];
+    int t[n+1][w+1];    // Diff from subsetSum (Earlier bool)
     for(int i=0;i<n+1;i++){
         for(int j=0;j<w+1;j++){
-            if(i==0) t[i][j] = 0;
-            if(j==0) t[i][j] = 1;
+            if(i==0) t[i][j] = 0; // Earlier false
+            if(j==0) t[i][j] = 1; // Earlier True
         }
     }
     
     for(int i=1;i<n+1;i++){
         for(int j=1;j<w+1;j++){
             if(nums[i-1] <= j)
-                t[i][j] = t[i-1][j-nums[i-1]] + t[i-1][j];
+                t[i][j] = t[i-1][j-nums[i-1]] + t[i-1][j]; // Diff from subsetSum ( Earlier max(a,b) )
             else if(nums[i-1] > j)
                 t[i][j] = t[i-1][j];
         }

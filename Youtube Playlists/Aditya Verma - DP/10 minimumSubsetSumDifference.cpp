@@ -29,21 +29,34 @@ Abs( S1 - S2 ) = 1, so we output 1
 
 using namespace std;
 
-int subsetSum(vector<int> &nums, int total){
+int minimumSubsetSumDifference(vector<int> arr){
+    int sum = 0;
+    for(int i=0;i<arr.size();i++){
+        sum += arr[i];
+    }
+    
+
+}
+
+
+
+
+// Earlier Problem Q7 
+bool subsetSum(vector<int> &nums, int total){
     int n = nums.size();
     int w = total;
-    int t[n+1][w+1];
+    bool t[n+1][w+1];
     for(int i=0;i<n+1;i++){
         for(int j=0;j<w+1;j++){
-            if(i==0) t[i][j] = 0;
-            if(j==0) t[i][j] = 1;
+            if(i==0) t[i][j] = false;
+            if(j==0) t[i][j] = true;
         }
     }
     
     for(int i=1;i<n+1;i++){
         for(int j=1;j<w+1;j++){
             if(nums[i-1] <= j)
-                t[i][j] = t[i-1][j-nums[i-1]] + t[i-1][j];
+                t[i][j] = max(t[i-1][j-nums[i-1]] , t[i-1][j]);
             else if(nums[i-1] > j)
                 t[i][j] = t[i-1][j];
         }
