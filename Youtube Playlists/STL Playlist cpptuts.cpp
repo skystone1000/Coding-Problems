@@ -29,7 +29,7 @@ MODIFIERS
 
 using namespace std;
 
-inr main(){
+int VectorDemo(){
 	
 	// Declarations
 	std::vector<int> arr1;
@@ -70,7 +70,7 @@ Notes:
 
 using namespace std;
 
-int main(){
+int MultimapDemo(){
 	std::multimap<char, int> Multimap;
 	Multimap.insert(make_pair('a', 1));
 	Multimap.insert(pair<char, int> ('a',1));
@@ -106,7 +106,7 @@ int main(){
 
 	// Get all the pairs of given key
 	auto range = Multimap.equal_range('a');
-	for(auto it = rnage.first; it!=range.second; it++){
+	for(auto it = range.first; it!=range.second; it++){
 		cout << it->first << " " << it->second << endl;
 	}
 
@@ -156,7 +156,7 @@ void print(const deque<int> &dqu){
 	cout<<endl;
 }
 
-int main(){
+int DequeDemo(){
 	
 	deque<int> dqu = {2,3,4};
 	dqu.push_front(1);
@@ -209,7 +209,7 @@ void print(queue<int> que){
 	cout<<endl;
 }
 
-int main(){
+int QueueDemo(){
 
 	queue<int> que;
 	que.push(2);
@@ -249,14 +249,14 @@ Keep (TOP k) or (BOTTOM K) elements
 #include <iostream>
 
 template<typename T> void print_queue(T& q){
-	while(!q.empty){
+	while(!q.empty()){
 		std::cout << q.top() << " ";
 		q.pop();
 	}
 	std::cout<<endl;
 }
 
-int main(){
+int PriorityQueueDemo(){
 	// ============================================
 	// MAX HEAP
 	std::priority_queue<int> q;
@@ -320,7 +320,7 @@ Maintains a collection of unique items with fast insertion and removal.
 
 using namespace std;
 
-int main(){
+int UnorderedSetDemo(){
 	std::unordered_set<int> uset = {4, 1, 2, 3, 4, 2, 3};
 	auto search = uset.find(2);
 	if(search != uset.end()){
@@ -370,7 +370,7 @@ Example : Dictionary.
 
 using namespace std;
 
-int main(){
+int MapDemo(){
 	std::map <string,int > Map;
 	Map["Chotu"] = 90939208;
 	Map["Amit"] = 82396497;
@@ -378,7 +378,7 @@ int main(){
 	Map.insert(std::make_pair("Bot",28736872));
 
 	// Traversing the Map
-	for(auto $el1: Map){
+	for(auto el1: Map){
 		cout << el1.first << " " << el1.second <<endl;
 	}
 
