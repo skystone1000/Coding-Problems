@@ -11,7 +11,7 @@ int main(){
 
 // Top Down DP
 int knapSack(int wt[], int val[], int W, int n){
-    // Base Condition
+    // Base Condition - here initialization
     for(int i=0;i<n+1;i++){
         for(int j=0;j<W+1;j++){
             if(i==0 || j==0){
