@@ -4,6 +4,7 @@
 using namespace std;
 
 int t[102][1002];
+// int t[n+1][W+1];
 
 int main(){
     memset(t, -1, sizeof(t));
