@@ -53,8 +53,8 @@ int subsetSum(vector<int> &Coin, int Sum){
     for(int i=1;i<n+1;i++){
         for(int j=1;j<Sum+1;j++){
             if(Coin[i-1] <= j)
-            //  t[i][j] = t[i-1][j-nums[i-1]] + t[i-1][j]; // count subset sum
-                t[i][j] = t[i][j-Coin[i-1]] + t[i-1][j];  // We did not do i-1 bcz multiple occurences
+            //  t[i][j] = t[i-1][j-nums[i-1]] + t[i-1][j];  // 09 count subset sum
+                t[i][j] = t[i][j-Coin[i-1]]   + t[i-1][j];  // We did not do i-1 bcz multiple occurences
             else if(Coin[i-1] > j)
                 t[i][j] = t[i-1][j];
         }
