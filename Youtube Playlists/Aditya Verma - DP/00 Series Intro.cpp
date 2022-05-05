@@ -33,7 +33,16 @@ Dynamic Programming
         13) Min Number of deletions in a string to make it a palindrome
         14) Min Number of insertions in a string to make it a palindrome
 
-    3) MCM - Matrix Chain Multiplication
+    3) MCM - Matrix Chain Multiplication (Videos 33-45)
+        1) Matrix Chain Multiplication
+        2) Printing Matrix Chain Multiplication
+        3) Evaluate Expression to true / Boolean Paranthesization
+        4) Minimum/Maximum Value of an Expression
+        5) Palindrome Partitioning
+        6) Scramble Strings
+        7) Egg Dropping Problem
+
+    4) To Update: DP on Trees and Graphs
 
 
 
