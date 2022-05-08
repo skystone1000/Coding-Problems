@@ -42,10 +42,12 @@ Dynamic Programming
         6) Scramble Strings
         7) Egg Dropping Problem
 
-    4) To Update: DP on Trees and Graphs
-
-
-
-
+    4) DP on Trees (Videos 46-50)
+        1) How DP can be applied on Trees / Identification (46)
+        2) General Syntax (47)
+        3) Diameter of a binary Tree (48)
+        4) Maximum path sum from any node to any node (49)
+        5) Maximum path sum from leaf node to leaf node (50)
+        6) Diameter of N-ary Treee
 
 */
