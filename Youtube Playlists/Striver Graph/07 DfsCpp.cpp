@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
 class Solution {
     void dfs(int node, vector<int> &vis, vector<int> adj[], vector<int> &storeDfs) {
         storeDfs.push_back(node); 
@@ -13,7 +12,7 @@ class Solution {
         }
     }
 public:
-	vector<int>dfsOfGraph(int V, vector<int> adj[]){
+	vector<int> dfsOfGraph(int V, vector<int> adj[]){
 	    vector<int> storeDfs; 
 	    vector<int> vis(V+1, 0); 
 		for(int i = 1;i<=V;i++) {

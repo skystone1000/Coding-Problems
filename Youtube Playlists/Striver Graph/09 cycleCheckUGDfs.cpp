@@ -2,10 +2,7 @@
 using namespace std;
 
  // o- based indexing code
-
-
 class Solution {
-
 public:
     bool checkForCycle(int node, int parent, vector<int> &vis, vector<int> adj[]) {
         vis[node] = 1; 

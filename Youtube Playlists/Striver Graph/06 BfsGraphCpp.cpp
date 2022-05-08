@@ -6,7 +6,7 @@ using namespace std;
 
 class Solution {
 public:
-	vector<int>bfsOfGraph(int V, vector<int> adj[]){
+	vector<int> bfsOfGraph(int V, vector<int> adj[]){
 	    vector<int> bfs; 
 	    vector<int> vis(V+1, 0); 
 
@@ -16,11 +16,14 @@ public:
 				queue<int> q; 
 				q.push(0); 
 				vis[0] = 1; 
+
+				// Iterating in Queue
 				while(!q.empty()) {
 					int node = q.front();
 					q.pop(); 
 					bfs.push_back(node); 
 					
+					// Validating connected vertices of node 
 					for(auto it : adj[node]) {
 						if(!vis[it]) {
 							q.push(it); 

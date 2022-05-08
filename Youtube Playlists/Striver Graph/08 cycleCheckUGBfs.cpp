@@ -23,8 +23,8 @@ public:
      
             for (auto it : adj[node]) {
                 if (!visited[it]) {
-                    visited[it] = true;
                     q.push({it, node});
+                    visited[it] = true;
                 }
                 else if (par != it)
                     return true;
@@ -33,7 +33,7 @@ public:
         return false;
     }
 public:
-	bool isCycle(int V, vector<int>adj[]){
+	bool isCycle(int V, vector<int> adj[]){
 	    vector<int> vis(V, 0); 
 	    for(int i = 0;i<V;i++) {
 	        if(!vis[i]) {
