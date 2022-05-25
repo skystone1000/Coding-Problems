@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// If Graph is cyclic no topo sort possible
+
 class Solution {
 public:
 	vector<int> topoSort(int N, vector<int> adj[]) {

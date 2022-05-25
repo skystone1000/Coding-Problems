@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
- // o- based indexing code
+// 0 - based indexing code
 class Solution {
 public:
     bool checkForCycle(int node, int parent, vector<int> &vis, vector<int> adj[]) {

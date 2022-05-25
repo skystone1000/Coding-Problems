@@ -7,7 +7,7 @@ int main() {
 	int n, m;
 	cin >> n >> m; 
 	
-	// declare the adjacent matrix 
+	// declare the adjacent List 
 	vector<int> adj[n+1];
 	
 	// take edges as input 
