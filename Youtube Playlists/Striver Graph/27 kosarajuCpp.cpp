@@ -1,3 +1,14 @@
+/*
+	Kosaraju Algorithm
+	Used for finding "Strongly Connected Components" in a graph
+
+	Steps
+	1) Do a Topo Sort (Take stack and store elements in stack while exiting recursion)
+	2) Invert the Graph edges
+	3) Iterate for all elements of stack to do a DFS on inverted graph
+*/
+
+
 #include <bits/stdc++.h>
 using namespace std;
 void dfs(int node, stack<int> &st, vector<int> &vis, vector<int> adj[]) {
@@ -20,6 +31,7 @@ void revDfs(int node, vector<int> &vis, vector<int> transpose[]) {
     }
 }
 int main() {
+	// Step 0 - Input the Adjacency List of Graph
     int n, m;
     cin >> n >> m; 
 	vector<int> adj[n]; 
@@ -29,6 +41,7 @@ int main() {
 	    adj[u].push_back(v);
 	}
 	
+	// Step 1 - Topo Sort
 	stack<int> st;
 	vector<int> vis(n, 0); 
 	for(int i = 0;i<n;i++) {
@@ -37,8 +50,8 @@ int main() {
 	    }
 	} 
 	
+	// Step 2 - Transpose the graph (Invert directions of edges)
 	vector<int> transpose[n]; 
-	
 	for(int i = 0;i<n;i++) {
 	    vis[i] = 0; 
 	    for(auto it: adj[i]) {
@@ -46,8 +59,7 @@ int main() {
 	    }
 	}
 	
-	
-	
+	// Step 3 - For each node in stack to a DFS for inverted graph
 	while(!st.empty()) {
 	    int node = st.top();
 	    st.pop(); 
@@ -57,8 +69,6 @@ int main() {
 	        cout << endl; 
 	    }
 	}
-	
-	
 	return 0;
 }
 

@@ -1,3 +1,21 @@
+/*
+	Bellman Ford Algorithm
+	Another "Single Source Shortest Path" => Works for -ve edges also (Dijkstra does not work for -ve Edge)
+
+    - If there is -ve cycle then "Bellman ford would not work" => Can detect -ve edges
+    - We can apply Bellman ford only if it is directed graph
+
+	Steps
+	1) Initialization -> Adjacency List, Distance array(set all elements to infinity)
+	2) Relax all Edges N-1 times
+	3) Relax Nth time => 
+        if it gets relaxed then there is -ve edge weight cycle
+        else you have single source shortest path to all other nodes
+
+    TC - O(N-1) x O(E)
+    SC - O(N)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 struct node {
@@ -12,6 +30,7 @@ struct node {
 };
 
 int main(){
+    // Step 1 - Adjacency List
     int N,m;
     cin >> N >> m;
     vector<node> edges; 
@@ -21,15 +40,13 @@ int main(){
         edges.push_back(node(u, v, wt)); 
     }
 
-    int src;
-    cin >> src; 
-
-
+    // Step 1 - Distance array
+    int src; cin >> src; 
     int inf = 10000000; 
     vector<int> dist(N, inf); 
 
+    // Step 2 - Relax all edges N-1 times
     dist[src] = 0; 
-
     for(int i = 1;i<=N-1;i++) {
         for(auto it: edges) {
             if(dist[it.u] + it.wt < dist[it.v]) {
@@ -38,6 +55,7 @@ int main(){
         }
     }
 
+    // Step 3 - Check if one more relaxation is possible
     int fl = 0; 
     for(auto it: edges) {
         if(dist[it.u] + it.wt < dist[it.v]) {
