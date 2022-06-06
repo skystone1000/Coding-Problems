@@ -1,10 +1,17 @@
 // Aditya Verma - DP Playlist 04 0-1 Knapsack Memoization
 
+/*
+Question
+    Given
+    Weights [] : 1    3    4    5
+    Values  [] : 1    4    5    7
+    Capacity (W) : 7 kg (Capacity of knapsack)
+    Find max profit that we can get by adding elements in the bag?
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
-
 int t[102][1002];
-
 int main(){
     memset(t, -1, sizeof(t));
 }

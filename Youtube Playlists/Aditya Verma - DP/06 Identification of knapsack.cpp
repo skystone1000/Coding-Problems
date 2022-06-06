@@ -14,7 +14,9 @@
         Values  [ ] : 1    4    5    7
         Capacity(W): 7 kg (Capacity of knapsack)
         Find max profit that we can get by adding elements in the bag?
-    Two arrays (which is basically just one array of items which has two properties i.e. wt and val ) But in future we might get just one array, so we can consider that one array as wt[ ] and neglect val[ ].
+
+    Two arrays (which is basically just one array of items which has two properties i.e. wt and val)
+    But in future we might get just one array, so we can consider that one array as wt[] and neglect val[].
     So basically when we see question with 
     - number of items 
     - Capacity (max)
