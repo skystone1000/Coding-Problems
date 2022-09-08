@@ -1,25 +1,28 @@
+/*
+A-5​: ​Write a function that takes an array of numbers as input parameter and prints the numbers 
+that have remainder of 4 when divided by 5.
+
+Example:
+Input: [19,10,44,3,11,129] Output: 19 44 129
+Input: [13,4] Output: 4
+*/
+
+
 #include<iostream>
 #include<vector>
-#include<algorithm>
 
 using namespace std;
 
-int diff(vector<int> &arr) {
-    vector<int> diffs;
-    int n = arr.size();
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            int currDiff = arr[i] - arr[j];
-            diffs.push_back(currDiff);
+void Func(vector<int> &arr) {
+    for(auto ele:arr){
+        if(ele % 5 == 4){
+            cout<<ele<<" ";
         }
     }
-    std::sort(diffs.begin(),diffs.end(), greater<int>());
-    return diffs[1];
 }
 
 int main(){
-    vector<int> arr = {14, 12, 70, 15, 95, 65, 22, 30};    
-    int ans = diff(arr);
-    cout<<ans<<endl;
+    vector<int> arr = {13,4};
+    Func(arr);
     return 0;
 }

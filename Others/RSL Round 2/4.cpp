@@ -1,33 +1,34 @@
+/*
+A-4: ​Write a function that takes an array of integers as input and prints the second-maximum difference between any two elements from an array.
+Example:int arr[]={14, 12, 70, 15, 95, 65, 22, 30};
+First max-difference = 95-12=83 
+Second max-difference = 95 -14 = 81 
+So output should be 81
+========================================
+*/
+
 #include<iostream>
 #include<vector>
-#include<map>
-#define deb2(x,y) cout<<#x<<" = "<<x <<", "<<#y<<" = "<<y<<endl
+#include<algorithm>
 
 using namespace std;
 
-int getFibOutput(int input) {
-    int a=0,b=1;
-    int sum = 0;
-    while(b<input){
-        // deb2(a,b);
-        int c = a+b;
-        if(c == input){
-            return c;
+int diff(vector<int> &arr) {
+    vector<int> diffs;
+    int n = arr.size();
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            int currDiff = arr[i] - arr[j];
+            diffs.push_back(currDiff);
         }
-        if(c % 2 == 0){
-            sum += c;
-        }
-        a = b;
-        b = c; 
     }
-    
-    return sum;
+    std::sort(diffs.begin(),diffs.end(), greater<int>());
+    return diffs[1];
 }
 
 int main(){
-    // int inp = 21;
-    int inp = 20;
-    int ans = getFibOutput(inp);
+    vector<int> arr = {14, 12, 70, 15, 95, 65, 22, 30};    
+    int ans = diff(arr);
     cout<<ans<<endl;
     return 0;
 }
