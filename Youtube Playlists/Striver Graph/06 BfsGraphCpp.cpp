@@ -1,69 +1,61 @@
 #include<bits/stdc++.h>
 
 using namespace std;
- // } Driver Code Ends
 
+vector<int> bfsOfGraph(int V, vector<int> adj[]){
+	vector<int> bfs; 
+	vector<int> vis(V+1, 0); 
 
-class Solution {
-public:
-	vector<int> bfsOfGraph(int V, vector<int> adj[]){
-	    vector<int> bfs; 
-	    vector<int> vis(V+1, 0); 
+	// Inital For loop for mutiple components
+	// 1 Based indexing
+	for(int i=1; i<=V ; i++){
+		// 0 Based Indexing 
+		// for(int i=0; i<V ; i++){
+		if(!vis[i]){
+			queue<int> q; 
+			q.push(i); 
+			vis[i] = 1; 
 
-		// Inital For loop for mutiple components
-		for(int i=1; i<=V ; i++){
-			if(!vis[i]){
-				queue<int> q; 
-				q.push(0); 
-				vis[0] = 1; 
-
-				// Iterating in Queue
-				while(!q.empty()) {
-					int node = q.front();
-					q.pop(); 
-					bfs.push_back(node); 
-					
-					// Validating connected vertices of node 
-					for(auto it : adj[node]) {
-						if(!vis[it]) {
-							q.push(it); 
-							vis[it] = 1; 
-						}
+			// Iterating in Queue
+			while(!q.empty()) {
+				int node = q.front();
+				q.pop(); 
+				bfs.push_back(node); 
+				
+				// Validating connected vertices of node 
+				for(auto it : adj[node]) {
+					if(!vis[it]) {
+						q.push(it); 
+						vis[it] = 1; 
 					}
 				}
 			}
 		}
-	    
-	    return bfs; 
 	}
-};
+	
+	return bfs; 
+}
 
-// { Driver Code Starts.
 int main(){
-	int tc;
-	cin >> tc;
-	// for multiple graphs
-	while(tc--){
-		int V, E;
-    	cin >> V >> E;
+	int V, E;
+	cout<<"Enter number of Vertices and Edges:";
+	cin >> V >> E;
 
-    	vector<int> adj[V];
+	vector<int> adj[V+1];
+	cout<<"Enter edges u->v\n";
+	for(int i = 0; i < E; i++)
+	{
+		int u, v;
+		cout<<"Enter edge "<<i<<" : ";
+		cin >> u >> v;
+		adj[u].push_back(v);
+ 		adj[v].push_back(u); // for undirected graoh 
+	}
 
-    	for(int i = 0; i < E; i++)
-    	{
-    		int u, v;
-    		cin >> u >> v;
-    		adj[u].push_back(v);
-    // 		adj[v].push_back(u); // uncomment this for undirected graoh 
-    	}
-        // string s1;
-        // cin>>s1;
-        Solution obj;
-        vector<int>ans=obj.bfsOfGraph(V, adj);
-        for(int i=0;i<ans.size();i++){
-        	cout<<ans[i]<<" ";
-        }
-        cout<<endl;
+	vector<int>ans = bfsOfGraph(V, adj);
+	cout<<"BFS of Graph: \n";
+	for(int i=0;i<ans.size();i++){
+		cout<<ans[i]<<" ";
 	}
 	return 0;
-}  // } Driver Code Ends
+} 

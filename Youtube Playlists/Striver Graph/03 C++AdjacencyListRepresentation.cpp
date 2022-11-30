@@ -8,7 +8,8 @@ int main() {
 	cin >> n >> m; 
 	
 	// declare the adjacent List 
-	vector<int> adj[n+1];
+	vector<int> adj[n+1]; // array of vector
+	vector<vector<int>> adj(n+1); // array of vector
 	
 	// take edges as input 
 	for(int i=0;i<m;i++) {

@@ -1,6 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+    Bipartite Graph: Graph that can be colored using 2 colors such 
+    that no two adjacent nodes have same color
+
+    If a graph has odd length cycle the it is not a bipartite graph
+*/
+
 bool bipartiteBfs(int src, vector<int> adj[], int color[]) {
     queue<int>q;
     q.push(src); 
